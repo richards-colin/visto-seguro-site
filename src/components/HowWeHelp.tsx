@@ -14,13 +14,27 @@ export default function HowWeHelp() {
         <p className="text-md md:text-lg mb-8">
           {t('how.subtitle')}
         </p>
+<div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-5xl mx-auto mt-8">
+  <div className="bg-blue-900 text-white p-4 rounded-lg hover:bg-blue-700 transition duration-300">
+    {t('how.item1')}
+  </div>
+  <div className="bg-blue-900 text-white p-4 rounded-lg hover:bg-blue-700 transition duration-300">
+    {t('how.item2')}
+  </div>
+  <div className="bg-blue-900 text-white p-4 rounded-lg hover:bg-blue-700 transition duration-300">
+    {t('how.item3')}
+  </div>
+  <div className="bg-blue-900 text-white p-4 rounded-lg hover:bg-blue-700 transition duration-300">
+    {t('how.item4')}
+  </div>
+</div>
 
-        <ul className="text-left max-w-2xl mx-auto space-y-4 list-disc list-inside text-base md:text-lg">
+        {/* <ul className="text-left max-w-2xl mx-auto space-y-4 list-disc list-inside text-base md:text-lg">
           <li>{t('how.item1')}</li>
           <li>{t('how.item2')}</li>
           <li>{t('how.item3')}</li>
           <li>{t('how.item4')}</li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   )

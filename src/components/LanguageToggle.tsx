@@ -1,7 +1,8 @@
+'use client'
 import { useTranslation } from 'react-i18next'
 
 export default function LanguageToggle() {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
 
   const toggleLanguage = () => {
     const newLang = i18n.language === 'en' ? 'pt' : 'en'
@@ -12,8 +13,9 @@ export default function LanguageToggle() {
     <button
       onClick={toggleLanguage}
       className="absolute top-4 right-4 text-sm underline text-blue-700"
+      suppressHydrationWarning
     >
-      {i18n.language === 'en' ? 'Português' : 'English'}
+      {t(`toggleTo.${i18n.language}`)}
     </button>
   )
 }

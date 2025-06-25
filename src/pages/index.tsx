@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import HowWeHelp from '@/components/HowWeHelp'
 import AttorneyBio from '@/components/AttorneyBio'
 import OriginStory from '@/components/OriginStory'
+import Footer from '@/components/Footer'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <HowWeHelp />
       <AttorneyBio />
       <OriginStory />
+      <Footer />
     </main>
   )
 }

@@ -8,14 +8,14 @@ export default function Navbar() {
 
   return (
     <nav className="bg-[#f8f4f1] border-b border-gray-200 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <a href="#top" className="flex items-center">
           <Image
             src="/logo.PNG"
             alt="Visto Seguro Logo"
-            width={160}
-            height={160}
+            width={185}
+            height={185}
             priority
             className="h-auto w-auto"
           />

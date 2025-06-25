@@ -14,7 +14,11 @@ export default function AttorneyBio() {
   }
 
   const rawHeading = t('bio.sectionTitle', { returnObjects: true })
-  const headingParts = Array.isArray(rawHeading) ? rawHeading : defaultHeading[lang] || defaultHeading.en
+
+  // Safe language key with fallback to 'en'
+  const langKey = (['en', 'pt'].includes(lang) ? lang : 'en') as keyof typeof defaultHeading
+
+  const headingParts = Array.isArray(rawHeading) ? rawHeading : defaultHeading[langKey]
 
   return (
     <section id="about" className="bg-[#fbf7f4] py-16 px-6 text-gray-800 border-b border-gray-200">

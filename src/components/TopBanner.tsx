@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import Image from 'next/image'
 
 export default function TopBanner() {
   const { i18n } = useTranslation()

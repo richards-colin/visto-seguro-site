@@ -12,7 +12,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#top" className="flex items-center">
           <Image
-            src="/logo.png"
+            src="/logo.PNG"
             alt="Visto Seguro Logo"
             width={160}
             height={160}

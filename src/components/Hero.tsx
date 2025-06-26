@@ -12,7 +12,7 @@ export default function Hero() {
         {t('hero.sub')}
       </p>
       <a
-        href="https://wa.me/18014309184"
+        href="https://wa.me/18016240221"
         className="inline-block bg-green-600 text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-green-700 transition-transform transform hover:scale-105"
         target="_blank"
         rel="noopener noreferrer"

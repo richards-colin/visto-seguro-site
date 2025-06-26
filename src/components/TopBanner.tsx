@@ -13,8 +13,7 @@ export default function TopBanner() {
   return (
     <div className="bg-blue-950 text-white text-sm py-2 px-4 flex flex-col md:flex-row md:justify-between md:items-center gap-1">
       <div className="flex flex-col md:flex-row md:items-center gap-2">
-        {/* Financing */}
-        <span className="font-semibold text-green-400">
+        {/* <span className="font-semibold text-green-400">
           {t('topBanner.financing')}
         </span>
 
@@ -26,7 +25,7 @@ export default function TopBanner() {
           <a href="tel:8014309184" className="underline hover:text-yellow-400">
             {t('topBanner.phone')}
           </a>
-        </span>
+        </span> */}
       </div>
 
       <div className="flex items-center gap-3 justify-end">

@@ -37,7 +37,55 @@
   "sectionTitle": ["Meet the", "Attorney"],
     "title": "Founder & Lead Attorney – Visto Seguro\nLicensed U.S. Immigration Attorney with 36+ Years of Experience",
     "body": "Kevin G. Richards is a seasoned U.S. immigration attorney with over 36 years of experience practicing exclusively in immigration law. His journey began long before law school, when he married his wife—originally from Novo Hamburgo, Rio Grande do Sul, Brazil—who became his very first immigration client. That personal experience sparked a lifelong dedication to helping individuals and families navigate the complexities of U.S. immigration.\n\nHe is licensed to practice in all federal immigration courts of the United States, including the Board of Immigration Appeals (BIA). Over the course of his career, Kevin has successfully handled thousands of immigration cases, including:\n• Adjustment of status (green cards)\n• Consular processing\n• Waivers of inadmissibility (including 212 and 601)\n• Removal (deportation) defense, including 42B non-LPR cancellation\n• Complex asylum and humanitarian cases\n\nKevin has represented clients from all over the world—including Canada, Germany, Russia, Afghanistan, Iran, Kenya, and virtually every country in North and South America. His reputation is built on compassion, legal precision, and a deep personal understanding of the immigrant experience.\n\nToday, he splits his time between Brazil and the United States, offering clients bilingual service and strategic visa support tailored for Brazilian citizens. As the founder of Visto Seguro, Kevin leads Brazil’s only visa advisory firm that is attorney-based and legally grounded.\n\nVisto Seguro is not a visa “agency”—it’s a legal service led by an American immigration attorney with decades of experience. We don’t guess. We analyze, advise, and fight for your approval based on strategy and law."
-  },"footer": {
+  },"pricing": {
+  "title": "Visto Seguro Plans and Pricing",
+  "description": "With Visto Seguro, the legal strategy for Brazilians reapplying after a U.S. tourist visa denial, you’ll go into your next application or interview ready, informed, and empowered. Choose from:",
+  "tier1": {
+    "title": "TIER 1",
+    "price": "US $200",
+    "ideal": "Ideal for clients who want to understand why their visa was denied and receive a complete strategic roadmap before reapplying.",
+    "features": [
+      "Detailed review of the DS-160 and correction recommendations",
+      "Review of denial reasons (CEAC codes / §214(b))",
+      "Risk and weakness assessment",
+      "Strategy to strengthen ties to Brazil",
+      "Suggested supporting documentation list",
+      "Written interview strategy",
+      "7-day WhatsApp support after the strategy session"
+    ]
+  },
+  "tier2": {
+    "title": "TIER 2",
+    "price": "US $550",
+    "ideal": "Ideal for applicants with prior denials seeking full attorney-prepared reapplication support. Includes everything in TIER 1, plus:",
+    "features": [
+      "Attorney-prepared or reviewed DS-160",
+      "Assembly of all supporting documents:",
+      "• Employment or income verification",
+      "• Bank statements, assets, family ties",
+      "• Travel itinerary, letter of invitation (if applicable)",
+      "Attorney-drafted cover letter",
+      "• Explains the reason for reapplying",
+      "• Highlights strong ties and intent to return",
+      "• Demonstrates compliance with §214(b)",
+      "Final checklist before scheduling an interview"
+    ]
+  },
+  "addOn": {
+    "title": "Additional Services",
+    "price": "US $100",
+    "description": "Additional services are available for both packages:",
+    "features": [
+      "Mock interview via Zoom (20-minute session",
+      "Real-time feedback and adjustments",
+      "Key talking points for stronger answers"
+    ]
+  },
+  "disclaimer": "All payments are securely processed via Clio Payments or LawPay legal billing systems.",
+  "cta": "Start Now",
+  "ctaGlobal": "Start Your Application"
+}
+,"footer": {
   "lawSite": "Visit our main U.S. law office site",
   "whatsapp": "Message us on WhatsApp",
   "tagline": "Legal visa support for Brazilian citizens",

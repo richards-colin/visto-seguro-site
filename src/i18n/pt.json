@@ -38,7 +38,55 @@
   "sectionTitle": ["Conheça o", "Advogado"],
     "title": "Fundador e Advogado Responsável – Visto Seguro\nAdvogado de Imigração nos EUA com Mais de 36 Anos de Experiência",
     "body": "Kevin G. Richards é um advogado de imigração licenciado nos Estados Unidos com mais de 36 anos de experiência exclusiva na área de direito imigratório. Sua trajetória começou antes mesmo da faculdade de Direito, quando se casou com sua esposa — natural de Novo Hamburgo, Rio Grande do Sul — que se tornou sua primeira cliente de imigração. Essa experiência pessoal despertou uma dedicação vitalícia a ajudar pessoas e famílias a enfrentar as complexidades da imigração americana.\n\nEle possui licença para atuar em todos os tribunais federais de imigração dos Estados Unidos, incluindo a Junta de Apelações de Imigração (BIA). Ao longo de sua carreira, Kevin já atendeu milhares de casos, incluindo:\n• Ajuste de status (green cards)\n• Processos consulares\n• Perdões de inadmissibilidade (incluindo 212 e 601)\n• Defesa contra deportação, incluindo 42B (cancelamento de deportação para não residentes permanentes)\n• Casos complexos de asilo e humanitários\n\nKevin já representou clientes de todo o mundo — incluindo Canadá, Alemanha, Rússia, Afeganistão, Irã, Quênia e praticamente todos os países das Américas. Sua reputação é baseada em empatia, precisão jurídica e uma profunda compreensão pessoal da experiência do imigrante.\n\nHoje, ele divide seu tempo entre o Brasil e os Estados Unidos, oferecendo atendimento bilíngue e suporte estratégico voltado para cidadãos brasileiros. Como fundador da Visto Seguro, Kevin lidera a única assessoria de vistos no Brasil com base jurídica e conduzida por um advogado americano de imigração.\n\nO Visto Seguro não é uma “agência” comum — é um serviço jurídico liderado por um advogado com décadas de experiência. Aqui, não adivinhamos. Analisamos, orientamos e lutamos por sua aprovação com base em estratégia e lei."
-  },"footer": {
+  },"pricing": {
+  "title": "Planos e Preços do Visto Seguro",
+  "description": "Com o Visto Seguro, a estratégia jurídica para brasileiros que solicitam novamente o visto de turista após uma recusa, você estará pronto, informado e capacitado para a sua próxima solicitação ou entrevista. Escolha entre:",
+  "tier1": {
+    "title": "NÍVEL 1",
+    "price": "US$ 200",
+    "ideal": "Ideal para clientes que desejam entender por que seu visto foi negado e receber um roteiro estratégico completo antes de solicitar novamente.",
+    "features": [
+      "Revisão detalhada do DS-160 e recomendações de correção",
+      "Revisão dos motivos da negação (códigos CEAC / §214(b))",
+      "Avaliação de riscos e pontos fracos",
+      "Estratégia para fortalecer os laços com o Brasil",
+      "Lista de documentação de apoio sugerida",
+      "Estratégia de entrevista por escrito",
+      "Suporte por WhatsApp de 7 dias após a sessão de estratégia"
+    ]
+  },
+  "tier2": {
+    "title": "NÍVEL 2",
+    "price": "US$ 550",
+    "ideal": "Ideal para requerentes com recusas anteriores que buscam suporte completo de reaplicação preparado por advogado. Inclui tudo o que está na camada 1, além de:",
+    "features": [
+      "DS-160 preparado ou revisado por advogado",
+      "Montagem de todos os documentos de apoio:",
+      "• Verificação de emprego ou renda",
+      "• Extratos bancários, bens, vínculos familiares",
+      "• Itinerário de viagem, carta-convite (se aplicável)",
+      "Carta de apresentação elaborada por advogado",
+      "• Explique o motivo da nova solicitação",
+      "• Destaca os laços fortes e a intenção de retornar",
+      "• Demonstra conformidade com o §214(b)",
+      "Lista de verificação final antes de agendar uma entrevista"
+    ]
+  },
+  "addOn": {
+    "title": "Serviços Adicionais",
+    "price": "US$ 100",
+    "description": "Serviços adicionais estão disponíveis para ambos os pacotes:",
+    "features": [
+      "Entrevista simulada via Zoom (sessão de 20 minutos)",
+      "Feedback e ajustes em tempo real",
+      "Principais pontos de discussão para respostas mais fortes"
+    ]
+  },
+  "disclaimer": "Todos os pagamentos são processados com segurança por meio dos sistemas de faturamento jurídico Clio Payments ou LawPay.",
+  "cta": "Começar Agora",
+  "ctaGlobal": "Iniciar Aplicação"
+}
+,"footer": {
   "lawSite": "Visite nosso site jurídico principal",
   "whatsapp": "Fale conosco no WhatsApp",
   "tagline": "Apoio jurídico para brasileiros em busca de visto americano",

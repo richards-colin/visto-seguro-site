@@ -10,25 +10,21 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  useEffect(() => {
-    let lastScrollY = window.scrollY
+useEffect(() => {
+  const handleScroll = () => {
+    const currentY = window.scrollY
 
-    const handleScroll = () => {
-      const currentY = window.scrollY
-
-      // Add hysteresis buffer (e.g. 10px) to avoid jitter
-      if (!isScrolled && currentY > 90) {
-        setIsScrolled(true)
-      } else if (isScrolled && currentY < 70) {
-        setIsScrolled(false)
-      }
-
-      lastScrollY = currentY
+    // Add hysteresis buffer (10px) to avoid jitter
+    if (!isScrolled && currentY > 90) {
+      setIsScrolled(true)
+    } else if (isScrolled && currentY < 70) {
+      setIsScrolled(false)
     }
+  }
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [isScrolled])
+  window.addEventListener('scroll', handleScroll)
+  return () => window.removeEventListener('scroll', handleScroll)
+}, [isScrolled])
 
   return (
     <nav

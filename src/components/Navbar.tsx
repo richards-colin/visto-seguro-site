@@ -42,7 +42,7 @@ useEffect(() => {
         >
           <div className="relative transition-all duration-300">
             <Image
-              src={isScrolled ? '/miniLogo.png' : '/logo.PNG'}
+              src={isScrolled ? '/miniLogo.PNG' : '/logo.PNG'}
               alt="Visto Seguro Logo"
               width={isScrolled ? 50 : 185}
               height={isScrolled ? 50 : 185}

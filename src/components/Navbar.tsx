@@ -125,19 +125,24 @@ export default function Navbar() {
       {/* Mobile Nav */}
       {isMenuOpen && (
         <ul className="md:hidden flex flex-col gap-4 px-6 py-4 text-gray-800 text-base font-medium bg-[#f8f4f1] border-t border-gray-300">
+                      <li>
+            <a href="#services" onClick={() => setIsMenuOpen(false)}>
+              {t('nav.services')}
+            </a>
+          </li>
           <li>
             <a href="#about" onClick={() => setIsMenuOpen(false)}>
               {t('nav.about')}
             </a>
           </li>
           <li>
-            <a href="#services" onClick={() => setIsMenuOpen(false)}>
-              {t('nav.services')}
-            </a>
-          </li>
-          <li>
             <a href="#why" onClick={() => setIsMenuOpen(false)}>
               {t('nav.why')}
+            </a>
+          </li>
+           <li>
+            <a href="#pricing" onClick={() => setIsMenuOpen(false)}>
+              {t('nav.pricing')}
             </a>
           </li>
           <li>

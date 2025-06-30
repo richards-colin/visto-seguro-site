@@ -1,12 +1,17 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
+        import SectionTitle from './SectionTitle'
+
 
 export default function HowWeHelp() {
   const { t } = useTranslation()
 
   return (
     <section id="services" className="bg-[#fbf7f4] text-gray-800 py-16 px-6 border-b border-gray-200">
+<SectionTitle
+  headingParts={[t('how.headingPart1'), t('how.headingPart2')]}
+/>
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
           {t('how.title')}

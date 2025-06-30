@@ -2,6 +2,7 @@
 
 import { useTranslation } from 'react-i18next'
 import Image from 'next/image'
+import SectionTitle from './SectionTitle'
 
 export default function AttorneyBio() {
   const { t, i18n } = useTranslation()
@@ -22,14 +23,10 @@ export default function AttorneyBio() {
 
   return (
     <section id="about" className="bg-[#fbf7f4] py-16 px-6 text-gray-800 border-b border-gray-200">
+        <SectionTitle
+          headingParts={[t('bio.headingPart1'), t('bio.headingPart2')]}
+        />
       <div className="max-w-7xl mx-auto">
-
-        {/* Dual-color translatable heading */}
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
-          <span className="text-green-700">{headingParts[0]}</span>{' '}
-          <span className="text-blue-900">{headingParts[1]}</span>
-        </h2>
-        <div className="w-16 h-1 mx-auto bg-blue-900 rounded mb-12"></div>
 
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Attorney Photo */}

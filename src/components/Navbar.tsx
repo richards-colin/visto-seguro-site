@@ -2,29 +2,43 @@
 
 import Image from 'next/image'
 import { useTranslation } from 'react-i18next'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Menu, X } from 'lucide-react'
 
 export default function Navbar() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const scrollState = useRef(false)
+  const timeoutId = useRef<NodeJS.Timeout | null>(null)
 
-useEffect(() => {
-  const handleScroll = () => {
-    const currentY = window.scrollY
+  useEffect(() => {
+    const handleScroll = () => {
+      const y = window.scrollY
+      const shouldBeScrolled = y > 120
 
-    // Add hysteresis buffer (10px) to avoid jitter
-    if (!isScrolled && currentY > 90) {
-      setIsScrolled(true)
-    } else if (isScrolled && currentY < 70) {
-      setIsScrolled(false)
+      if (shouldBeScrolled !== scrollState.current) {
+        scrollState.current = shouldBeScrolled
+        setIsScrolled(shouldBeScrolled)
+      }
     }
+
+    const debounceScroll = () => {
+      if (timeoutId.current) clearTimeout(timeoutId.current)
+      timeoutId.current = setTimeout(handleScroll, 100)
+    }
+
+    window.addEventListener('scroll', debounceScroll)
+    return () => window.removeEventListener('scroll', debounceScroll)
+  }, [])
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'pt' : 'en'
+    i18n.changeLanguage(newLang)
   }
 
-  window.addEventListener('scroll', handleScroll)
-  return () => window.removeEventListener('scroll', handleScroll)
-}, [isScrolled])
+  const flagSrc = i18n.language === 'en' ? '/br-flag.svg' : '/us-flag.svg'
+  const flagAlt = i18n.language === 'en' ? 'Switch to Portuguese' : 'Switch to English'
 
   return (
     <nav
@@ -34,12 +48,7 @@ useEffect(() => {
     >
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
-        <a
-          href="#top"
-          className={`flex items-center transition-all duration-300 ${
-            isScrolled ? 'justify-start' : 'justify-center'
-          } w-full md:w-auto`}
-        >
+        <a href="#top" className="flex items-center w-full md:w-auto">
           <div className="relative transition-all duration-300">
             <Image
               src={isScrolled ? '/miniLogo.PNG' : '/logo.PNG'}
@@ -52,25 +61,32 @@ useEffect(() => {
           </div>
         </a>
 
-        {/* Hamburger Button */}
-        <button
-          className="md:hidden text-gray-800"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Toggle menu"
-        >
-          {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
+        {/* Mobile Hamburger & Flag */}
+        <div className="md:hidden flex items-center gap-3">
+          {isScrolled && (
+            <button onClick={toggleLanguage} aria-label={flagAlt}>
+              <Image src={flagSrc} alt={flagAlt} width={36} height={36} />
+            </button>
+          )}
+          <button
+            className="text-gray-800"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
+        </div>
 
         {/* Desktop Nav */}
-        <ul className="hidden md:flex gap-6 text-sm font-medium text-gray-700">
-          <li>
-            <a href="#about" className="hover:text-blue-600 transition-colors duration-200">
-              {t('nav.about')}
+        <ul className="hidden md:flex gap-6 items-center text-sm font-medium text-gray-700">
+                      <li>
+            <a href="#services" className="hover:text-blue-600 transition-colors duration-200">
+              {t('nav.services')}
             </a>
           </li>
           <li>
-            <a href="#services" className="hover:text-blue-600 transition-colors duration-200">
-              {t('nav.services')}
+            <a href="#about" className="hover:text-blue-600 transition-colors duration-200">
+              {t('nav.about')}
             </a>
           </li>
           <li>
@@ -79,11 +95,16 @@ useEffect(() => {
             </a>
           </li>
           <li>
+            <a href="#pricing" className="hover:text-blue-600 transition-colors duration-200">
+              {t('nav.pricing')}
+            </a>
+          </li>
+          <li>
             <a href="#contact" className="hover:text-blue-600 transition-colors duration-200">
               {t('nav.contact')}
             </a>
           </li>
-          <li>
+          <li className="flex items-center gap-3">
             <a
               href="https://wa.me/18016240221"
               target="_blank"
@@ -92,6 +113,11 @@ useEffect(() => {
             >
               WhatsApp
             </a>
+            {isScrolled && (
+              <button onClick={toggleLanguage} aria-label={flagAlt}>
+                <Image src={flagSrc} alt={flagAlt} width={24} height={24} />
+              </button>
+            )}
           </li>
         </ul>
       </div>

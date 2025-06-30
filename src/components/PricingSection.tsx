@@ -1,6 +1,7 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
+import SectionTitle from './SectionTitle'
 
 export default function PricingSection() {
   const { t, i18n } = useTranslation()
@@ -36,8 +37,11 @@ export default function PricingSection() {
 
   return (
     <section id="pricing" className="bg-[#fbf7f4] py-16 px-6 text-gray-800 border-t border-gray-200">
+        <SectionTitle
+          headingParts={[t('pricing.headingPart1'), t('pricing.headingPart2')]}
+        />
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">{t('pricing.title')}</h2>
+        {/* <h2 className="text-2xl md:text-3xl font-bold mb-4">{t('pricing.title')}</h2> */}
         <p className="text-md md:text-lg mb-10 text-gray-700 whitespace-pre-line">
           {t('pricing.description')}
         </p>

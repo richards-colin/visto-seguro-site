@@ -1,11 +1,15 @@
 import { useTranslation } from 'react-i18next'
 import Image from 'next/image'
+import SectionTitle from './SectionTitle'
 
 export default function OriginStory() {
   const { t } = useTranslation()
 
   return (
-    <section id="origin" className="bg-[#fbf7f4] text-gray-800 py-20 px-6 border-b border-gray-200 mx-auto">
+    <section id="why" className="bg-[#fbf7f4] text-gray-800 py-20 px-6 border-b border-gray-200 mx-auto">
+        <SectionTitle
+          headingParts={[t('origin.headingPart1'), t('origin.headingPart2')]}
+        />
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
         {t('origin.title')}
       </h2>

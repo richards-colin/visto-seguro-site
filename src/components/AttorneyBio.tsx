@@ -9,17 +9,17 @@ export default function AttorneyBio() {
   const lang = i18n.language
 
   // Fallback titles if i18n hasn't loaded or keys are missing
-  const defaultHeading = {
-    en: ['Meet the', 'Attorney'],
-    pt: ['Conheça o', 'Advogado'],
-  }
+//   const defaultHeading = {
+//     en: ['Meet the', 'Attorney'],
+//     pt: ['Conheça o', 'Advogado'],
+//   }
 
-  const rawHeading = t('bio.sectionTitle', { returnObjects: true })
+//   const rawHeading = t('bio.sectionTitle', { returnObjects: true })
 
   // Safe language key with fallback to 'en'
-  const langKey = (['en', 'pt'].includes(lang) ? lang : 'en') as keyof typeof defaultHeading
+//   const langKey = (['en', 'pt'].includes(lang) ? lang : 'en') as keyof typeof defaultHeading
 
-  const headingParts = Array.isArray(rawHeading) ? rawHeading : defaultHeading[langKey]
+//   const headingParts = Array.isArray(rawHeading) ? rawHeading : defaultHeading[langKey]
 
   return (
     <section id="about" className="bg-[#fbf7f4] py-16 px-6 text-gray-800 border-b border-gray-200">

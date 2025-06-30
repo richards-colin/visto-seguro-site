@@ -5,7 +5,7 @@ import Image from 'next/image'
 import SectionTitle from './SectionTitle'
 
 export default function AttorneyBio() {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
 //   const lang = i18n.language
 
   // Fallback titles if i18n hasn't loaded or keys are missing

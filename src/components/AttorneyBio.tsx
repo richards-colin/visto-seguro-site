@@ -6,7 +6,7 @@ import SectionTitle from './SectionTitle'
 
 export default function AttorneyBio() {
   const { t, i18n } = useTranslation()
-  const lang = i18n.language
+//   const lang = i18n.language
 
   // Fallback titles if i18n hasn't loaded or keys are missing
 //   const defaultHeading = {

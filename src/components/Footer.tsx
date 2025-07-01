@@ -10,7 +10,6 @@ export default function Footer() {
   const year = new Date().getFullYear()
   const [showScrollTop, setShowScrollTop] = useState(false)
 
-  // Show scroll-to-top when scrolling
   useEffect(() => {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 200)
@@ -26,17 +25,13 @@ export default function Footer() {
 
   return (
     <>
-      {/* Footer */}
       <footer id="contact" className="bg-[#f8f4f1] text-sm text-gray-700 px-6 py-6 border-t border-gray-300">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
-          {/* Left Section */}
           <div>
             <p className="mb-1 font-medium">{t('footer.copyright', { year })}</p>
             <p>{t('footer.tagline')}</p>
             <p>{t('footer.location')}</p>
           </div>
-
-          {/* Right Section – Links with WhatsApp icon */}
           <div className="flex flex-col md:items-end gap-2">
             <a
               href="https://www.rbrlawgroup.com/legal-services/immigration/visto-seguro/"
@@ -46,20 +41,9 @@ export default function Footer() {
             >
               {t('footer.lawSite')}
             </a>
-            {/* <a
-              href="https://wa.me/18014309184"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-green-600 text-white px-4 py-1 rounded hover:bg-green-700 transition"
-            >
-              <Image src="/whatsIcon.png" alt="WhatsApp" width={32} height={32} />
-              {t('footer.whatsapp')}
-            </a> */}
           </div>
         </div>
       </footer>
-
-      {/* Floating WhatsApp button (desktop + mobile) */}
 <a
   href="https://wa.me/18016240221"
   target="_blank"
@@ -69,14 +53,11 @@ export default function Footer() {
   <Image
     src="/whatsIcon.png"
     alt="WhatsApp"
-    width={40} // Mobile size
+    width={40}
     height={40}
     className="md:w-[64px] md:h-[64px] w-[40px] h-[40px]"
   />
 </a>
-
-
-      {/* Floating scroll-to-top arrow (mobile only) */}
       {showScrollTop && (
         <button
           onClick={scrollToTop}

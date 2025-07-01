@@ -2,20 +2,22 @@
 import { useTranslation } from 'react-i18next'
 
 export default function LanguageToggle() {
-  const { i18n, t } = useTranslation()
+  const { i18n } = useTranslation()
 
-  const toggleLanguage = () => {
-    const newLang = i18n.language === 'en' ? 'pt' : 'en'
-    i18n.changeLanguage(newLang)
+  const changeLanguage = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    i18n.changeLanguage(e.target.value)
   }
 
   return (
-    <button
-      onClick={toggleLanguage}
-      className="absolute top-4 right-4 text-sm underline text-blue-700"
+    <select
+      onChange={changeLanguage}
+      value={i18n.language}
+      className="absolute top-4 right-4 text-sm border border-gray-300 rounded px-2 py-1 text-gray-800 bg-white shadow-sm"
       suppressHydrationWarning
     >
-      {t(`toggleTo.${i18n.language}`)}
-    </button>
+      <option value="en">English</option>
+      <option value="pt">Português</option>
+      <option value="es">Español</option>
+    </select>
   )
 }

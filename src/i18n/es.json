@@ -1,0 +1,112 @@
+{
+  "toggleTo": {
+    "en": "🇧🇷 Português"
+  },
+  "topBanner": {
+    "financing": "Opciones de financiamiento disponibles",
+    "address": "2562 Monroe Boulevard, Ogden, UT 84401",
+    "call": "Llamar",
+    "phone": "801-430-9184",
+    "spanish": "Se Habla Español",
+    "toggle": "Português"
+  },
+  "origin": {
+    "headingPart1": "Sobre",
+    "headingPart2": "Nosotros",
+    "sectionTitle": "Por Qué Existimos",
+    "title": "Historia del Fundador: Cómo Nació Visto Seguro",
+    "body": "Mi primera clienta de inmigración no era una desconocida.\nElla fue alguien de quien me enamoré.\n\nMi esposa es de Novo Hamburgo, Rio Grande do Sul, Brasil — y antes de convertirse en mi compañera de vida, fue mi primer caso de inmigración.\n\nEstamos aquí para ayudar a las personas cuyos visados fueron denegados a encontrar claridad, confianza y una segunda oportunidad — tal como lo hizo ella.",
+    "whyTitle": "Por Qué Existimos",
+    "whyBody": "Visto Seguro existe para empoderar a personas a quienes se les ha negado la visa de turista estadounidense con las herramientas, perspectivas y estrategias que necesitan para intentarlo de nuevo — más inteligentes y más fuertes. Creemos que una negativa no significa el fin. Con el plan correcto, puede ser un nuevo comienzo.\n\nEstamos aquí para reemplazar la confusión con claridad — y la decepción con dirección."
+  },
+  "hero": {
+    "headline": "Reaplica con Confianza.",
+    "sub": "En Visto Seguro, ayudamos a brasileños a quienes se les negó la visa de EE.UU. a comprender la razón de la denegación y reaplicar con confianza. Ofrecemos análisis de caso personalizado, revisión del DS‑160, preparación para la entrevista y una estrategia completa — liderada por un abogado de inmigración con licencia en EE.UU.",
+    "cta": "Habla con un Abogado"
+  },
+  "nav": {
+    "about": "Sobre",
+    "services": "Servicios",
+    "why": "Por qué Visto Seguro",
+    "contact": "Contacto",
+    "pricing": "Planes y Precios"
+  },
+  "how": {
+    "headingPart1": "Cómo",
+    "headingPart2": "Ayudamos",
+    "title": "No solo te ayudamos a reaplicar — te ayudamos a entender por qué te negaron y cómo tener éxito la próxima vez.",
+    "subtitle": "En Visto Seguro, nos especializamos en análisis legal y planificación estratégica para ciudadanos brasileños a quienes se les negó la visa de turista estadounidense. Dirigido por un abogado de inmigración licenciado en EE.UU., ofrecemos:",
+    "item1": "Revisión completa de tu DS‑160 y del historial de entrevistas",
+    "item2": "Identificación de factores de riesgo o evidencia débil",
+    "item3": "Estrategia escrita que detalla exactamente lo que debe cambiar",
+    "item4": "Entrenamiento para la entrevista y orientación sobre documentación de soporte"
+  },
+  "bio": {
+    "headingPart1": "Conoce al",
+    "headingPart2": "Abogado",
+    "name": "Kevin G. Richards",
+    "sectionTitle": ["Conoce al", "Abogado"],
+    "title": "Fundador y Abogado Principal – Visto Seguro\nAbogado de Inmigración en EE.UU. con más de 36 años de experiencia",
+    "body": "Kevin G. Richards es un abogado de inmigración estadounidense con amplia experiencia, más de 36 años dedicados exclusivamente al derecho migratorio. Su trayectoria comenzó mucho antes de la facultad de derecho, cuando se casó con su esposa — originaria de Novo Hamburgo, Rio Grande do Sul, Brasil — que se convirtió en su primera clienta de inmigración. Esa experiencia personal encendió una dedicación de por vida a ayudar a personas y familias a navegar las complejidades de la inmigración en EE.UU.\n\nEstá autorizado para ejercer ante todos los tribunales federales de inmigración de EE.UU., incluyendo la Junta de Apelaciones de Inmigración (BIA). A lo largo de su carrera, Kevin ha manejado miles de casos, entre ellos:\n• Ajuste de estatus (green cards)\n• Procesos consulares\n• Exenciones de inadmisibilidad (incluyendo §§ 212 y 601)\n• Defensa contra deportaciones, incluyendo cancelación 42B para no residentes permanentes\n• Casos complejos de asilo y humanitarios\n\nHa representado a clientes de todo el mundo — incluyendo Canadá, Alemania, Rusia, Afganistán, Irán, Kenia y virtualmente todos los países de América del Norte y del Sur. Su reputación se basa en la compasión, precisión legal y una profunda comprensión personal de la experiencia del inmigrante.\n\nActualmente divide su tiempo entre Brasil y EE.UU., ofreciendo servicio bilingüe y apoyo jurídico estratégico dirigido a ciudadanos brasileños. Como fundador de Visto Seguro, lidera la única asesoría de visas en Brasil dirigida por un abogado estadounidense especializado.\n\nVisto Seguro no es una “agencia” de visas — es un servicio legal dirigido por un abogado con décadas de experiencia. Aquí no adivinamos. Analizamos, asesoramos y luchamos por tu aprobación basados en estrategia y ley.",
+    "link": "Más información en nuestra oficina principal de inmigración"
+  },
+  "pricing": {
+    "headingPart1": "Visto Seguro",
+    "headingPart2": "Planes y Precios",
+    "sectionTitle": ["Visto Seguro", "Planes y Precios"],
+    "title": "Planes y Precios de Visto Seguro",
+    "description": "Con Visto Seguro, la estrategia legal para brasileños que re aplican tras una denegación de visa de turista a EE.UU., estarás listo, informado y empoderado para tu siguiente solicitud o entrevista. Elige entre:",
+    "tier1": {
+      "title": "NIVEL 1",
+      "price": "USD $200",
+      "ideal": "Ideal para clientes que desean entender por qué se les negó la visa y recibir un plan estratégico completo antes de volver a aplicar.",
+      "features": [
+        "Revisión detallada del DS‑160 y recomendaciones de corrección",
+        "Revisión de las razones de denegación (códigos CEAC / §214(b))",
+        "Evaluación de riesgo y puntos débiles",
+        "Estrategia para fortalecer vínculos con Brasil",
+        "Lista sugerida de documentación de apoyo",
+        "Estrategia escrita para la entrevista",
+        "Soporte por WhatsApp durante 7 días tras la sesión estratégica"
+      ]
+    },
+    "tier2": {
+      "title": "NIVEL 2",
+      "price": "USD $550",
+      "ideal": "Ideal para solicitantes con negativas previas que buscan soporte completo de reaplicación preparado por un abogado. Incluye todo lo de NIVEL 1, más:",
+      "features": [
+        "DS‑160 preparado o revisado por abogado",
+        "Reunión de todos los documentos de soporte:",
+        " Verificación de empleo o ingresos",
+        " Extractos bancarios, activos, vínculos familiares",
+        " Itinerario de viaje, carta de invitación (si aplica)",
+        "Carta de presentación redactada por abogado",
+        " Explica el motivo de la nueva solicitud",
+        " Destaca vínculos fuertes e intención de retorno",
+        " Demuestra cumplimiento del §214(b)",
+        "Lista final de verificación antes de agendar la entrevista"
+      ]
+    },
+    "addOn": {
+      "title": "Servicios Adicionales",
+      "price": "USD $100",
+      "ideal": "Servicios adicionales disponibles para ambos paquetes:",
+      "description": "Servicios adicionales disponibles para ambos paquetes:",
+      "features": [
+        "Simulación de entrevista vía Zoom (20 minutos)",
+        "Feedback en tiempo real y ajustes",
+        "Puntos clave para respuestas más sólidas"
+      ]
+    },
+    "disclaimer": "Todos los pagos se procesan de forma segura a través de Clio Payments o LawPay.",
+    "cta": "Comienza Ahora",
+    "ctaGlobal": "Inicia Tu Solicitud"
+  },
+  "footer": {
+    "lawSite": "Visita nuestro sitio legal principal de EE.UU.",
+    "whatsapp": "Contáctanos por WhatsApp",
+    "tagline": "Apoyo legal migratorio para ciudadanos brasileños",
+    "location": "Ogden, Utah – EE.UU.",
+    "copyright": "© {{year}} Visto Seguro"
+  }
+}

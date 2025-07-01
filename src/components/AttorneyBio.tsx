@@ -6,20 +6,6 @@ import SectionTitle from './SectionTitle'
 
 export default function AttorneyBio() {
   const { t } = useTranslation()
-//   const lang = i18n.language
-
-  // Fallback titles if i18n hasn't loaded or keys are missing
-//   const defaultHeading = {
-//     en: ['Meet the', 'Attorney'],
-//     pt: ['Conheça o', 'Advogado'],
-//   }
-
-//   const rawHeading = t('bio.sectionTitle', { returnObjects: true })
-
-  // Safe language key with fallback to 'en'
-//   const langKey = (['en', 'pt'].includes(lang) ? lang : 'en') as keyof typeof defaultHeading
-
-//   const headingParts = Array.isArray(rawHeading) ? rawHeading : defaultHeading[langKey]
 
   return (
     <section id="about" className="bg-[#fbf7f4] py-16 px-6 text-gray-800 border-b border-gray-200">
@@ -51,8 +37,8 @@ export default function AttorneyBio() {
               rel="noopener noreferrer"
               className="inline-block px-4 py-2 mt-4 bg-green-600 text-white text-sm rounded hover:bg-green-700 transition"
             >
-              Learn more at our main immigration law office →
-            </a>
+  {t('bio.link')}
+</a>
           </div>
         </div>
       </div>

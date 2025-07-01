@@ -52,7 +52,7 @@ export default function Navbar() {
     localStorage.setItem('lang', lang)
   }
 
-  const currentLang = languages.find(l => l.code === i18n.language) || languages[0]
+//   const currentLang = languages.find(l => l.code === i18n.language) || languages[0]
 
   const renderLanguageSelector = () => (
     <select

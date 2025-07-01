@@ -55,12 +55,20 @@ export default function Navbar() {
 //   const currentLang = languages.find(l => l.code === i18n.language) || languages[0]
 
   const renderLanguageSelector = () => (
-    <select
-      aria-label="Select language"
-      className="border rounded px-2 py-1 text-sm cursor-pointer"
-      value={i18n.language}
-      onChange={(e) => handleLanguageChange(e.target.value)}
-    >
+    // <select
+    //   aria-label="Select language"
+    //   className="border rounded px-2 py-1 text-sm cursor-pointer"
+    //   value={i18n.language}
+    //   onChange={(e) => handleLanguageChange(e.target.value)}
+    // >
+        <select
+  aria-label="Select language"
+  className="border border-gray-400 bg-white rounded px-3 py-2 text-sm text-gray-800 cursor-pointer shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500
+    md:border-none md:bg-transparent md:shadow-none md:cursor-default md:py-1 md:px-2 md:text-gray-700"
+  value={i18n.language}
+  onChange={(e) => handleLanguageChange(e.target.value)}
+>
+
       {languages.map(lang => (
         <option key={lang.code} value={lang.code}>
           {lang.label}

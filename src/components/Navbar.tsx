@@ -17,7 +17,6 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [hasLanguageLoaded, setHasLanguageLoaded] = useState(false)
   const scrollState = useRef(false)
-  const timeoutId = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
     const storedLang = localStorage.getItem('lang')

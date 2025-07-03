@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useTranslation } from 'react-i18next'
 import { useState, useEffect, useRef } from 'react'
 import { Menu, X } from 'lucide-react'
+import TopBanner from './TopBanner'
 
 const languages = [
   { code: 'en', label: 'English', flag: '/us-flag.svg' },
@@ -45,13 +46,13 @@ export default function Navbar() {
       }
     }
 
-    const debounceScroll = () => {
-      if (timeoutId.current) clearTimeout(timeoutId.current)
-      timeoutId.current = setTimeout(handleScroll, 100)
-    }
+    // const debounceScroll = () => {
+    //   if (timeoutId.current) clearTimeout(timeoutId.current)
+    //   timeoutId.current = setTimeout(handleScroll, 100)
+    // }
 
-    window.addEventListener('scroll', debounceScroll)
-    return () => window.removeEventListener('scroll', debounceScroll)
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
   const handleLanguageChange = (lang: string) => {
@@ -76,7 +77,10 @@ export default function Navbar() {
   )
 
   return (
-    <nav className={`bg-[#f8f4f1] border-b border-gray-200 sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-0'}`}>
+    <nav className={`bg-[#f8f4f1] border-b border-gray-200 sticky top-0 z-50 transition-all duration-200 ${isScrolled ? 'py-2' : 'py-0'}`}>
+               {/* {!isScrolled && <TopBanner />} */}
+
+        
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <a href="#top" className="flex items-center w-full md:w-auto">
           <div className="relative transition-all duration-300">

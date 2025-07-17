@@ -19,7 +19,7 @@
   "hero": {
     "headline": "Reaplique com Confiança.",
     "sub": "Na Visto Seguro, ajudamos brasileiros que tiveram o visto americano negado a entender o motivo da recusa e reaplicar com mais confiança. Oferecemos análise personalizada, revisão do DS-160, preparação para a entrevista e estratégia completa com um advogado licenciado nos EUA.",
-    "cta": "Fale com um Advogado"
+    "cta": "Fale com um especialista"
   },
   "nav": {
     "about": "Sobre",
@@ -52,45 +52,48 @@
   "title": "Planos e Preços do Visto Seguro",
   "description": "Com o Visto Seguro, a estratégia jurídica para brasileiros que solicitam novamente o visto de turista após uma recusa, você estará pronto, informado e capacitado para a sua próxima solicitação ou entrevista. Escolha entre:",
   "tier1": {
-    "title": "NÍVEL 1",
+    "title": "Nivel 1:",
     "price": "USD $200",
-    "ideal": "Ideal para clientes que desejam entender por que seu visto foi negado e receber um roteiro estratégico completo antes de solicitar novamente.",
+    "ideal": "Ideal para clientes que estão solicitando o visto americano pela primeira vez e desejam garantir que toda a documentação e estratégia estejam corretas desde o início.",
     "features": [
-      "Revisão detalhada do DS-160 e recomendações de correção",
-      "Revisão dos motivos da negação (códigos CEAC / §214(b))",
-      "Avaliação de riscos e pontos fracos",
-      "Estratégia para fortalecer os laços com o Brasil",
-      "Lista de documentação de apoio sugerida",
-      "Estratégia de entrevista por escrito",
-      "Suporte por WhatsApp de 7 dias após a sessão de estratégia"
+      "Análise completa do perfil e objetivo da viagem",
+"Preenchimento estratégico do formulário DS-160",
+"Revisão de documentos para demonstrar vínculos com o Brasil",
+"Orientações sobre o que dizer e o que evitar na entrevista",
+"Roteiro estratégico personalizado para a aprovação",
+"Suporte por WhatsApp por 5 dias após a sessão de estratégia"
     ]
   },
   "tier2": {
-    "title": "NÍVEL 2",
-    "price": "USD $550",
-    "ideal": "Ideal para requerentes com recusas anteriores que buscam suporte completo de reaplicação preparado por advogado. Inclui tudo o que está na camada 1, além de:",
+    "title": "Nivel 2:",
+    "price": "USD $250",
+    "ideal": "Ideal para clientes que desejam entender por que seu visto foi negado e receber um roteiro estratégico completo antes de solicitar novamente.",
     "features": [
-      "DS-160 preparado ou revisado por advogado",
-      "Montagem de todos os documentos de apoio:",
-      " Verificação de emprego ou renda",
-      " Extratos bancários, bens, vínculos familiares",
-      " Itinerário de viagem, carta-convite (se aplicável)",
-      "Carta de apresentação elaborada por advogado",
-      " Explique o motivo da nova solicitação",
-      " Destaca os laços fortes e a intenção de retornar",
-      " Demonstra conformidade com o §214(b)",
-      "Lista de verificação final antes de agendar uma entrevista"
+      "Revisão detalhada do DS-160 e recomendações de correção.",
+"Revisão dos motivos da negação (códigos CEAC / §214(b))",
+"Avaliação de riscos e pontos fracos",
+"Estratégia para fortalecer os laços com o Brasil",
+"Lista de documentação de apoio sugerida",
+"Estratégia de entrevista por escrito",
+"Suporte por WhatsApp de 7 dias após a sessão de estratégia"
     ]
   },
   "addOn": {
-    "title": "Serviços Adicionais",
-    "price": "USD $100",
-    "ideal": "Serviços adicionais estão disponíveis para ambos os pacotes:",
-    "description": "Serviços adicionais estão disponíveis para ambos os pacotes:",
+    "title": "Nivel 3:",
+    "price": "USD $550",
+    "ideal": "Ideal para requerentes com recusas anteriores que buscam suporte completo de reaplicação preparado por advogado. Inclui tudo o que está na camada 1, além de",
+    "description": "Serviços adicionais estão disponíveis para ambos os pacotes",
     "features": [
-      "Entrevista simulada via Zoom (sessão de 20 minutos)",
-      "Feedback e ajustes em tempo real",
-      "Principais pontos de discussão para respostas mais fortes"
+      "DS-160 preparado ou revisado por advogado.",
+"Montagem de todos os documentos de apoio:",
+"Verificação de emprego ou renda",
+"Extratos bancários, bens, vínculos familiares",
+"Itinerário de viagem, carta-convite (se aplicável)",
+"Carta de apresentação elaborada por advogado",
+"Explique o motivo da nova solicitação",
+"Destaca os laços fortes e a intenção de retornar",
+"Demonstra conformidade com o §214(b)",
+"Lista de verificação final antes de agendar uma entrevista"
     ]
   },
   "disclaimer": "Todos os pagamentos são processados com segurança por meio dos sistemas de faturamento jurídico Clio Payments ou LawPay.",

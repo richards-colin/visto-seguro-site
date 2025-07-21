@@ -10,17 +10,19 @@
   "toggle": "English"
 },"origin": {
         "headingPart1": "Sobre",
-    "headingPart2": "Nós",
-    "title": "A Origem do Visto Seguro",
+    "headingPart2": "nós",
+    "title": "A origem do Visto Seguro",
     "body": "Minha primeira cliente de imigração não era uma estranha.\nEra alguém por quem eu me apaixonei.\n\nMinha esposa é de Novo Hamburgo, Rio Grande do Sul — e antes de se tornar minha parceira de vida, foi meu primeiro caso de imigração. \n\nEstamos aqui para ajudar pessoas que tiveram o visto negado a encontrar clareza, confiança e uma segunda chance — assim como ela teve.",
-    "whyTitle": "Por Que Existimos",
+    "whyTitle": "Por que existimos",
     "whyBody": "O Visto Seguro existe para capacitar pessoas que tiveram o visto de turismo negado pelos EUA, oferecendo ferramentas, estratégia e orientação para tentar novamente — de forma mais forte e inteligente. Acreditamos que a recusa não é o fim. Com o plano certo, pode ser um novo começo.\n\nEstamos aqui para substituir a confusão pela clareza — e a decepção pela direção certa."
   },
-  "hero": {
-    "headline": "Reaplique com Confiança.",
-    "sub": "Na Visto Seguro, ajudamos brasileiros que tiveram o visto americano negado a entender o motivo da recusa e reaplicar com mais confiança. Oferecemos análise personalizada, revisão do DS-160, preparação para a entrevista e estratégia completa com um advogado licenciado nos EUA.",
-    "cta": "Fale com um especialista"
-  },
+"hero": {
+  "headline": "Teve o visto americano negado ou está com medo de errar na entrevista?",
+  "support": "Você não precisa enfrentar isso sozinho.",
+  "tagline": "Aplique com clareza. Reaplique com estratégia.",
+  "sub": "Na Visto Seguro, te ajudamos a sair da dúvida e entrar preparado. Receba orientação jurídica especializada para aumentar (de verdade) suas chances de aprovação — com apoio de um advogado licenciado nos EUA.",
+  "cta": "Fale com um especialista"
+},
   "nav": {
     "about": "Sobre",
     "services": "Serviços",
@@ -28,28 +30,30 @@
     "contact": "Contato",
     "pricing": "Planos e Preços"
   },
-  "how": {
-    "headingPart1": "Como",
-    "headingPart2": "Ajudamos",
-    "title": "Nós não apenas ajudamos você a reaplicar — ajudamos a entender por que foi negado e como ter sucesso na próxima vez.",
-    "subtitle": "Na Visto Seguro, somos especializados em análise jurídica e planejamento estratégico para brasileiros que tiveram o visto de turismo dos EUA negado. Liderado por um advogado de imigração licenciado nos EUA, oferecemos:",
-    "item1": "Revisão completa do seu DS-160 e histórico da entrevista",
-    "item2": "Identificação de fatores de risco ou documentação fraca",
-    "item3": "Estratégia por escrito explicando exatamente o que precisa mudar",
-    "item4": "Treinamento para a entrevista e orientação sobre documentos"
-  },
+"how": {
+  "headingPart1": "O que",
+  "headingPart2": "fazemos por você",
+  "title": "Aqui, você não vai depender da sorte.",
+  "subtitle": "Na Visto Seguro, analisamos cada detalhe do seu processo e criamos uma estratégia personalizada com base na lei de imigração americana. Você recebe:",
+  "item1": "Análise completa do seu DS-160",
+  "item2": "Identificação dos pontos de risco no seu perfil",
+  "item3": "Estratégia por escrito do que deve mudar",
+  "item4": "Preparação real para a entrevista (com simulação e orientações)",
+  "item5": "Acompanhamento com advogado licenciado nos EUA",
+  "closing": "Tudo o que você precisa para aplicar (ou reaplicar) com segurança."
+},
   "bio": {
         "headingPart1": "Conheça o",
-    "headingPart2": "Advogado",
+    "headingPart2": "advogado",
     "name": "Kevin G. Richards",
-  "sectionTitle": ["Conheça o", "Advogado"],
+  "sectionTitle": ["Conheça o", "advogado"],
     "title": "Fundador e Advogado Responsável – Visto Seguro\nAdvogado de Imigração nos EUA com Mais de 36 Anos de Experiência",
     "body": "Kevin G. Richards é um advogado de imigração licenciado nos Estados Unidos com mais de 36 anos de experiência exclusiva na área de direito imigratório. Sua trajetória começou antes mesmo da faculdade de Direito, quando se casou com sua esposa — natural de Novo Hamburgo, Rio Grande do Sul — que se tornou sua primeira cliente de imigração. Essa experiência pessoal despertou uma dedicação vitalícia a ajudar pessoas e famílias a enfrentar as complexidades da imigração americana.\n\nEle possui licença para atuar em todos os tribunais federais de imigração dos Estados Unidos, incluindo a Junta de Apelações de Imigração (BIA). Ao longo de sua carreira, Kevin já atendeu milhares de casos, incluindo:\n Ajuste de status (green cards)\n Processos consulares\n Perdões de inadmissibilidade (incluindo 212 e 601)\n Defesa contra deportação, incluindo 42B (cancelamento de deportação para não residentes permanentes)\n Casos complexos de asilo e humanitários\n\nKevin já representou clientes de todo o mundo — incluindo Canadá, Alemanha, Rússia, Afeganistão, Irã, Quênia e praticamente todos os países das Américas. Sua reputação é baseada em empatia, precisão jurídica e uma profunda compreensão pessoal da experiência do imigrante.\n\nHoje, ele divide seu tempo entre o Brasil e os Estados Unidos, oferecendo atendimento bilíngue e suporte estratégico voltado para cidadãos brasileiros. Como fundador da Visto Seguro, Kevin lidera a única assessoria de vistos no Brasil com base jurídica e conduzida por um advogado americano de imigração.\n\nO Visto Seguro não é uma “agência” comum — é um serviço jurídico liderado por um advogado com décadas de experiência. Aqui, não adivinhamos. Analisamos, orientamos e lutamos por sua aprovação com base em estratégia e lei.",
     "link": "Saiba mais no nosso escritório principal de advocacia de imigração"
   },"pricing": {
-        "headingPart1": "Planos e Preços",
+        "headingPart1": "Planos e preços",
     "headingPart2": "Visto Seguro",
-  "title": "Planos e Preços do Visto Seguro",
+  "title": "Planos e preços do Visto Seguro",
   "description": "Com o Visto Seguro, a estratégia jurídica para brasileiros que solicitam novamente o visto de turista após uma recusa, você estará pronto, informado e capacitado para a sua próxima solicitação ou entrevista. Escolha entre:",
   "tier1": {
     "title": "Nivel 1:",

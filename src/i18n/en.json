@@ -9,18 +9,20 @@
   "toggle": "Português"
 },"origin": {
       "headingPart1": "About",
-  "headingPart2": "Us",
-        "sectionTitle": "Why We Exist",
+  "headingPart2": "us",
+        "sectionTitle": "Why we exist",
     "title": "Founder’s Origin Story: How Visto Seguro Was Born",
     "body": "My first immigration client wasn’t a stranger.\nShe was someone I fell in love with.\n\nMy wife is from Novo Hamburgo, Rio Grande do Sul, Brazil—and before she became my partner in life, she became my very first immigration case. \n\nWe’re here to help people who have been denied a visa find clarity, confidence, and a second chance—just like she did.",
-    "whyTitle": "Why We Exist",
+    "whyTitle": "Why we exist",
     "whyBody": "Visto Seguro exists to empower people who have been denied a U.S. visitor visa with the tools, insight, and strategy they need to try again—smarter and stronger. We believe that rejection doesn’t mean the end. With the right plan, it can be a new beginning.\n\nWe’re here to replace confusion with clarity—and disappointment with direction."
   },
-  "hero": {
-    "headline": "Reapply with Confidence.",
-    "sub": "At Visto Seguro, we help Brazilians who were denied a U.S. visa understand the reason for their refusal and reapply with confidence. We offer personalized case analysis, DS-160 review, interview preparation, and a complete strategy — led by a licensed U.S. immigration attorney.",
-    "cta": "Talk to a Lawyer"
-  },
+"hero": {
+  "headline": "Was your U.S. visa denied or are you afraid of making a mistake in the interview?",
+  "support": "You don't have to face this alone.",
+  "tagline": "Apply with clarity. Reapply with strategy.",
+  "sub": "At Visto Seguro, we help you go from doubt to confidence. Get specialized legal guidance to truly increase your chances of approval with the support of a licensed U.S. attorney.",
+  "cta": "Talk to a Lawyer"
+},
   "nav": {
     "about": "About",
     "services": "Services",
@@ -28,75 +30,80 @@
     "contact": "Contact",
     "pricing": "Plans and Pricing"
   },
-  "how": {
-  "headingPart1": "How we",
-  "headingPart2": "Help",
-    "title": "We don’t just help you reapply — we help you understand why you were denied and how to succeed next time.",
-    "subtitle": "At Visto Seguro, we specialize in legal analysis and strategic planning for Brazilian citizens denied a U.S. tourist visa. Led by a U.S. immigration attorney, we provide:",
-    "item1": "A full review of your DS-160 and visa interview history",
-    "item2": "Identification of key risk factors or weak evidence",
-    "item3": "A written case strategy outlining exactly what needs to change",
-    "item4": "Interview coaching and supporting documentation guidance"
-  },
+"how": {
+  "headingPart1": "What we",
+  "headingPart2": "do for you",
+  "title": "Here, you won’t rely on luck.",
+  "subtitle": "At Visto Seguro, we analyze every detail of your case and create a personalized strategy based on U.S. immigration law. You’ll receive:",
+  "item1": "Full review of your DS-160",
+  "item2": "Identification of risk points in your profile",
+  "item3": "Written strategy outlining what needs to change",
+  "item4": "Real preparation for the interview (with simulation and guidance)",
+  "item5": "Ongoing support from a licensed U.S. attorney",
+  "closing": "Everything you need to apply or reapply with confidence."
+},
   "bio": {
       "headingPart1": "Meet the",
-  "headingPart2": "Attorney",
+  "headingPart2": "attorney",
     "name": "Kevin G. Richards",
-  "sectionTitle": ["Meet the", "Attorney"],
+  "sectionTitle": ["Meet the", "attorney"],
     "title": "Founder & Lead Attorney – Visto Seguro\nLicensed U.S. Immigration Attorney with 36+ Years of Experience",
     "body": "Kevin G. Richards is a seasoned U.S. immigration attorney with over 36 years of experience practicing exclusively in immigration law. His journey began long before law school, when he married his wife—originally from Novo Hamburgo, Rio Grande do Sul, Brazil—who became his very first immigration client. That personal experience sparked a lifelong dedication to helping individuals and families navigate the complexities of U.S. immigration.\n\nHe is licensed to practice in all federal immigration courts of the United States, including the Board of Immigration Appeals (BIA). Over the course of his career, Kevin has successfully handled thousands of immigration cases, including:\n Adjustment of status (green cards)\n Consular processing\n Waivers of inadmissibility (including 212 and 601)\n Removal (deportation) defense, including 42B non-LPR cancellation\n Complex asylum and humanitarian cases\n\nKevin has represented clients from all over the world—including Canada, Germany, Russia, Afghanistan, Iran, Kenya, and virtually every country in North and South America. His reputation is built on compassion, legal precision, and a deep personal understanding of the immigrant experience.\n\nToday, he splits his time between Brazil and the United States, offering clients bilingual service and strategic visa support tailored for Brazilian citizens. As the founder of Visto Seguro, Kevin leads Brazil’s only visa advisory firm that is attorney-based and legally grounded.\n\nVisto Seguro is not a visa “agency”—it’s a legal service led by an American immigration attorney with decades of experience. We don’t guess. We analyze, advise, and fight for your approval based on strategy and law.",
     "link": "Learn more at our main immigration law office"
   },"pricing": {
           "headingPart1": "Visto Seguro",
-  "headingPart2": "Plans and Pricing",
-        "sectionTitle": ["Visto Seguro", "Plans and Pricing"],
+  "headingPart2": "plans and pricing",
+        "sectionTitle": ["Visto Seguro", "plans and pricing"],
   "title": "Visto Seguro Plans and Pricing",
   "description": "With Visto Seguro, the legal strategy for Brazilians reapplying after a U.S. tourist visa denial, you’ll go into your next application or interview ready, informed, and empowered. Choose from:",
   "tier1": {
-    "title": "TIER 1",
+    "title": "Level 1:",
     "price": "USD $200",
-    "ideal": "Ideal for clients who want to understand why their visa was denied and receive a complete strategic roadmap before reapplying.",
+    "ideal": "Ideal for clients applying for a U.S. visa for the first time and who want to ensure their documentation and strategy are correct from the beginning.",
     "features": [
-      "Detailed review of the DS-160 and correction recommendations",
-      "Review of denial reasons (CEAC codes / §214(b))",
-      "Risk and weakness assessment",
-      "Strategy to strengthen ties to Brazil",
-      "Suggested supporting documentation list",
-      "Written interview strategy",
-      "7-day WhatsApp support after the strategy session"
+      "Full analysis of your profile and travel purpose",
+      "Strategic completion of the DS-160 form",
+      "Document review to show strong ties to Brazil",
+      "Guidance on what to say—and avoid—during the interview",
+      "Personalized strategy roadmap for approval",
+      "WhatsApp support for 5 days after the strategy session"
     ]
   },
   "tier2": {
-    "title": "TIER 2",
-    "price": "USD $550",
-    "ideal": "Ideal for applicants with prior denials seeking full attorney-prepared reapplication support. Includes everything in TIER 1, plus:",
+    "title": "Level 2:",
+    "price": "USD $250",
+    "ideal": "Ideal for clients who want to understand why their visa was denied and receive a complete strategic roadmap before reapplying.",
     "features": [
-      "Attorney-prepared or reviewed DS-160",
-      "Assembly of all supporting documents:",
-      " Employment or income verification",
-      " Bank statements, assets, family ties",
-      " Travel itinerary, letter of invitation (if applicable)",
-      "Attorney-drafted cover letter",
-      " Explains the reason for reapplying",
-      " Highlights strong ties and intent to return",
-      " Demonstrates compliance with §214(b)",
-      "Final checklist before scheduling an interview"
+      "Detailed DS-160 review with correction recommendations",
+      "Analysis of refusal reasons (CEAC codes / §214(b))",
+      "Risk assessment and weak point identification",
+      "Strategy to strengthen ties to Brazil",
+      "Suggested supporting document list",
+      "Written interview strategy",
+      "WhatsApp support for 7 days after the strategy session"
     ]
   },
   "addOn": {
-    "title": "Additional Services",
-    "price": "USD $100",
-    "ideal": "Additional services are available for both packages:",
-    "description": "Additional services are available for both packages:",
+    "title": "Level 3:",
+    "price": "USD $550",
+    "ideal": "Ideal for applicants with previous denials seeking full reapplication support from a licensed attorney. Includes everything in Level 1, plus:",
+    "description": "Additional services are available for all packages.",
     "features": [
-      "Mock interview via Zoom (20-minute session",
-      "Real-time feedback and adjustments",
-      "Key talking points for stronger answers"
+      "DS-160 completed or reviewed by an attorney",
+      "Compilation of all supporting documents:",
+      "Proof of employment or income",
+      "Bank statements, assets, family ties",
+      "Travel itinerary, invitation letter (if applicable)",
+      "Cover letter written by an attorney",
+      "Explains reason for reapplying",
+      "Highlights strong ties and intent to return",
+      "Demonstrates compliance with §214(b)",
+      "Final checklist before scheduling your interview"
     ]
   },
   "disclaimer": "All payments are securely processed via Clio Payments or LawPay legal billing systems.",
-  "cta": "Start Now",
-  "ctaGlobal": "Start Your Application"
+  "cta": "Get Started Now",
+  "ctaGlobal": "Start Application"
 }
 ,"footer": {
   "lawSite": "Visit our main U.S. law office site",

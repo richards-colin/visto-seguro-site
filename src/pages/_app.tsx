@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       {/* Google Tag (gtag.js) */}
-      <Script
+      {/* <Script
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=AW-17298586607"
       />
@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
           gtag('js', new Date());
           gtag('config', 'AW-17298586607');
         `}
-      </Script>
+      </Script> */}
 
       <Component {...pageProps} />
       <Analytics />

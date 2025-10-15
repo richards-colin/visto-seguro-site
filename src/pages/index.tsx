@@ -3,11 +3,7 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import HowWeHelp from '@/components/HowWeHelp'
 import Values from '@/components/Values'
-import AttorneyBio from '@/components/AttorneyBio'
-import OriginStory from '@/components/OriginStory'
 import Footer from '@/components/Footer'
-import PricingSection from '@/components/PricingSection'
-
 
 export default function Home() {
   return (
@@ -17,10 +13,6 @@ export default function Home() {
       <Hero />
       <HowWeHelp/>
       <Values />
-      {/* <HowWeHelp />
-      <AttorneyBio />
-      <OriginStory />
-      <PricingSection /> */}
       <Footer />
     </main>
   )

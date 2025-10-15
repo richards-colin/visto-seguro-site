@@ -18,14 +18,14 @@ export default function Values() {
   ]
 
   // Animation variants for staggered entrance
-const variants = {
-  hidden: { opacity: 0, y: 40 },
-  visible: (custom: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: { delay: custom * 0.12, duration: 0.6, ease: "easeOut" }
-  }),
-}
+// const variants = {
+//   hidden: { opacity: 0, y: 40 },
+//   visible: (custom: number) => ({
+//     opacity: 1,
+//     y: 0,
+//     transition: { delay: custom * 0.12, duration: 0.6, ease: "easeOut" }
+//   }),
+// }
 
   return (
     <section id="values" className="bg-[#fbf7f4] text-gray-800 py-16 px-6 border-b border-gray-200">

@@ -1,7 +1,7 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
-        import SectionTitle from './SectionTitle'
+import SectionTitle from './SectionTitle'
 
 
 export default function HowWeHelp() {

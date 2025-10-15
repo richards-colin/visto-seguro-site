@@ -9,13 +9,14 @@
   "spanish": "Atendimento em Espanhol",
   "toggle": "English"
 },"origin": {
-        "headingPart1": "Sobre",
-    "headingPart2": "nós",
-    "title": "A origem do Visto Seguro",
-    "body": "Minha primeira cliente de imigração não era uma estranha.\nEra alguém por quem eu me apaixonei.\n\nMinha esposa é de Novo Hamburgo, Rio Grande do Sul — e antes de se tornar minha parceira de vida, foi meu primeiro caso de imigração. \n\nEstamos aqui para ajudar pessoas que tiveram o visto negado a encontrar clareza, confiança e uma segunda chance — assim como ela teve.",
-    "whyTitle": "Por que existimos",
-    "whyBody": "O Visto Seguro existe para capacitar pessoas que tiveram o visto de turismo negado pelos EUA, oferecendo ferramentas, estratégia e orientação para tentar novamente — de forma mais forte e inteligente. Acreditamos que a recusa não é o fim. Com o plano certo, pode ser um novo começo.\n\nEstamos aqui para substituir a confusão pela clareza — e a decepção pela direção certa."
-  },
+  "headingPart1": "Sobre",
+  "headingPart2": "nós",
+  "sectionTitle": "Por que existimos",
+  "title": "Nossa Missão: Por que o Visto Seguro foi criado",
+  "body": "O Visto Seguro foi criado com a missão de ajudar brasileiros a realizarem seus sonhos nos Estados Unidos de forma prática, transparente e segura. Nossa equipe é formada por profissionais experientes no mercado de imigração e vistos, sempre atentos às constantes mudanças nos requisitos consulares.\n\nOferecemos consultoria especializada para diferentes tipos de visto, como turismo, estudante e intercâmbio, além de orientação completa durante todo o processo. Nosso objetivo é simplificar etapas burocráticas, aumentar as chances de aprovação e garantir que cada cliente se sinta apoiado em todas as fases da sua jornada.\n\nCombinamos conhecimento técnico, profissionalismo e atendimento personalizado para que cada pessoa tenha clareza e confiança ao lidar com um tema tão importante. No Visto Seguro, acreditamos que cada caso é único, por isso oferecemos soluções sob medida para o perfil e os objetivos de cada cliente.\n\nMais do que orientação, proporcionamos tranquilidade para que você possa focar no que realmente importa: aproveitar sua experiência nos Estados Unidos sem preocupações.",
+  "whyTitle": "Por que existimos",
+  "whyBody": "Nosso objetivo é simplificar o processo de visto, aumentar suas chances de aprovação e garantir que você se sinta apoiado em todas as etapas. Acreditamos que cada caso é único, por isso oferecemos soluções personalizadas para o perfil e os objetivos de cada cliente. Mais do que orientação, proporcionamos tranquilidade para que você possa aproveitar sua experiência nos Estados Unidos sem preocupações."
+},
 "hero": {
   "headline": "Teve o visto americano negado ou está com medo de errar na entrevista?",
   "support": "Você não precisa enfrentar isso sozinho.",
@@ -29,6 +30,59 @@
     "why": "Por que Visto Seguro",
     "contact": "Contato",
     "pricing": "Planos e Preços"
+  },"tourism": {
+    "title": "Visto de Turismo (B1/B2)",
+    "intro": "O visto americano de turismo, também conhecido como B1/B2, é um dos mais solicitados pelos brasileiros.",
+    "body": "Seja para visitar a Disney, fazer compras em Miami ou participar de reuniões de negócios, este visto abre as portas para os Estados Unidos. Mas atenção: apesar de ser muito popular, existem regras claras sobre o que pode e o que não pode ser feito.",
+    "canTitle": "✅ O que você pode fazer com o visto de turismo",
+    "canList": [
+      "Viajar para turismo e lazer",
+      "Visitar familiares e amigos",
+      "Fazer compras",
+      "Participar de reuniões e conferências de negócios",
+      "Receber tratamento médico temporário"
+    ],
+    "cannotTitle": "❌ O que você NÃO pode fazer",
+    "cannotList": [
+      "Trabalhar nos EUA",
+      "Estudar em tempo integral",
+      "Solicitar residência permanente",
+      "Receber benefícios do governo americano"
+    ],
+    "docsTitle": "Documentos normalmente solicitados:",
+    "docsList": [
+      "Passaporte válido",
+      "Formulário DS-160 preenchido",
+      "Comprovante de agendamento da entrevista",
+      "Comprovante de pagamento da taxa consular (MRV)",
+      "Documentos que comprovem vínculos com o Brasil (emprego, família, bens)"
+    ]
+  },
+  "student": {
+    "title": "Visto de Estudante (F1)",
+    "intro": "O sonho de estudar nos Estados Unidos atrai milhares de brasileiros todos os anos. O visto de estudante F1 é o mais comum para quem deseja estudar em escolas, faculdades e universidades americanas.",
+    "canTitle": "✅ O que você pode fazer com o visto F1",
+    "canList": [
+      "Estudar em tempo integral em uma instituição credenciada",
+      "Trabalhar no campus (até 20 horas por semana durante o período letivo)",
+      "Participar de programas de estágio autorizados (OPT e CPT)",
+      "Permanecer legalmente nos EUA durante o curso"
+    ],
+    "cannotTitle": "❌ O que você NÃO pode fazer",
+    "cannotList": [
+      "Trabalhar fora do campus sem autorização",
+      "Solicitar residência permanente diretamente",
+      "Trancar o curso e permanecer nos EUA",
+      "Ignorar as regras do SEVIS (Student and Exchange Visitor Information System)"
+    ],
+    "docsTitle": "Documentos importantes:",
+    "docsList": [
+      "Formulário I-20 (emitido pela instituição)",
+      "Comprovante de pagamento da taxa SEVIS (I-901)",
+      "DS-160 preenchido",
+      "Comprovante financeiro (demonstração de que pode se sustentar nos EUA)",
+      "Passaporte válido"
+    ]
   },
 "how": {
   "headingPart1": "O que",
@@ -43,14 +97,14 @@
   "closing": "Tudo o que você precisa para aplicar (ou reaplicar) com segurança."
 },
   "bio": {
-        "headingPart1": "Conheça o",
-    "headingPart2": "advogado",
-    "name": "Kevin G. Richards",
+  "headingPart1": "Conheça o",
+  "headingPart2": "advogado",
+  "name": "Kevin G. Richards",
   "sectionTitle": ["Conheça o", "advogado"],
-    "title": "Fundador e Advogado Responsável – Visto Seguro\nAdvogado de Imigração nos EUA com Mais de 36 Anos de Experiência",
-    "body": "Kevin G. Richards é um advogado de imigração licenciado nos Estados Unidos com mais de 36 anos de experiência exclusiva na área de direito imigratório. Sua trajetória começou antes mesmo da faculdade de Direito, quando se casou com sua esposa — natural de Novo Hamburgo, Rio Grande do Sul — que se tornou sua primeira cliente de imigração. Essa experiência pessoal despertou uma dedicação vitalícia a ajudar pessoas e famílias a enfrentar as complexidades da imigração americana.\n\nEle possui licença para atuar em todos os tribunais federais de imigração dos Estados Unidos, incluindo a Junta de Apelações de Imigração (BIA). Ao longo de sua carreira, Kevin já atendeu milhares de casos, incluindo:\n Ajuste de status (green cards)\n Processos consulares\n Perdões de inadmissibilidade (incluindo 212 e 601)\n Defesa contra deportação, incluindo 42B (cancelamento de deportação para não residentes permanentes)\n Casos complexos de asilo e humanitários\n\nKevin já representou clientes de todo o mundo — incluindo Canadá, Alemanha, Rússia, Afeganistão, Irã, Quênia e praticamente todos os países das Américas. Sua reputação é baseada em empatia, precisão jurídica e uma profunda compreensão pessoal da experiência do imigrante.\n\nHoje, ele divide seu tempo entre o Brasil e os Estados Unidos, oferecendo atendimento bilíngue e suporte estratégico voltado para cidadãos brasileiros. Como fundador da Visto Seguro, Kevin lidera a única assessoria de vistos no Brasil com base jurídica e conduzida por um advogado americano de imigração.\n\nO Visto Seguro não é uma “agência” comum — é um serviço jurídico liderado por um advogado com décadas de experiência. Aqui, não adivinhamos. Analisamos, orientamos e lutamos por sua aprovação com base em estratégia e lei.",
-    "link": "Saiba mais no nosso escritório principal de advocacia de imigração"
-  },"pricing": {
+  "title": "Fundador e Advogado Responsável – Visto Seguro\nAdvogado de Imigração nos EUA com mais de 36 anos de experiência",
+  "body": "Kevin G. Richards é um advogado de imigração licenciado nos Estados Unidos com mais de 36 anos de experiência exclusiva em direito imigratório. Sua trajetória começou antes mesmo da faculdade de Direito, quando se casou com sua esposa — natural de Novo Hamburgo, Rio Grande do Sul — que se tornou sua primeira cliente de imigração. Essa experiência pessoal despertou uma dedicação vitalícia a ajudar pessoas e famílias a enfrentar as complexidades da imigração americana.\n\nKevin é licenciado e está em situação regular junto à Ordem dos Advogados (Bar #5339) e autorizado a atuar em todos os tribunais federais de imigração dos Estados Unidos, incluindo a Junta de Apelações de Imigração (BIA).\n\nAo longo de sua carreira, Kevin já atendeu milhares de casos de imigração, construindo uma reputação baseada em empatia, precisão jurídica e uma profunda compreensão pessoal da experiência do imigrante. Hoje, ele divide seu tempo entre o Brasil e os Estados Unidos, oferecendo atendimento bilíngue e suporte estratégico de vistos especialmente para cidadãos brasileiros.\n\nComo fundador da Visto Seguro, Kevin lidera a única assessoria de vistos no Brasil que é conduzida por advogado e fundamentada na lei. O Visto Seguro não é uma “agência” de vistos — é um serviço jurídico liderado por um advogado americano com décadas de experiência. Não adivinhamos. Analisamos, orientamos e lutamos pela sua aprovação com base em estratégia e lei.",
+  "link": "Saiba mais no nosso escritório principal de advocacia de imigração"
+},"pricing": {
         "headingPart1": "Planos e preços",
     "headingPart2": "Visto Seguro",
   "title": "Planos e preços do Visto Seguro",
@@ -104,5 +158,38 @@
   "tagline": "Apoio jurídico para brasileiros em busca de visto americano",
   "location": "Ogden, Utah – EUA",
   "copyright": "© {{year}} Visto Seguro"
+},"values": {
+  "headingPart1": "Nossos",
+  "headingPart2": "Valores",
+  "title": "No Visto Seguro, nossos valores orientam cada passo do nosso trabalho.",
+  "intro": "Não ajudamos apenas com formulários — caminhamos com você em uma das decisões mais importantes da sua vida: tornar realidade o sonho de viajar, estudar ou viver no exterior.",
+  "clientCentered": {
+    "title": "Atendimento centrado no cliente",
+    "body": "Escutamos primeiro, agimos com empatia e focamos nos seus objetivos. Seu sonho é nossa missão. Estamos ao seu lado do início ao fim."
+  },
+  "clarityEducation": {
+    "title": "Clareza através da educação",
+    "body": "Informação é poder. Simplificamos processos migratórios complexos para que você se sinta informado e confiante em cada etapa."
+  },
+  "integrityTransparency": {
+    "title": "Integridade e transparência",
+    "body": "Trabalhamos com honestidade e profissionalismo. Sem condições ocultas, sem promessas falsas — apenas orientação clara e confiável."
+  },
+  "excellence": {
+    "title": "Excelência em cada caso",
+    "body": "Seja visto de turismo, jornada estudantil ou reaplicação após negativa, buscamos excelência em cada atendimento."
+  },
+  "compassionRespect": {
+    "title": "Compaixão e respeito",
+    "body": "Cada história importa. Cada cliente merece dignidade. Tratamos seu caso com o mesmo cuidado que se fosse nosso."
+  },
+  "fearlessAdvocacy": {
+    "title": "Defesa sem medo",
+    "body": "Não desistimos do seu sonho. Analisamos, planejamos e lutamos com determinação para maximizar suas chances de aprovação."
+  },
+  "innovation": {
+    "title": "Movidos pela inovação",
+    "body": "Usamos tecnologia e estratégias modernas para tornar o processo mais rápido, acessível e adaptado à realidade brasileira."
+  },"closing": "✦ Somos mais do que suporte para vistos — somos seu aliado de confiança para tornar o sonho americano possível."
 }
 }

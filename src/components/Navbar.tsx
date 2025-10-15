@@ -75,7 +75,7 @@ export default function Navbar() {
 
         
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-        <a href="/" className="flex items-center w-full md:w-auto">
+        <Link href="/" className="flex items-center w-full md:w-auto">
           <div className="relative transition-all duration-300">
             <Image
               src={isScrolled ? '/miniLogo.PNG' : '/logo.PNG'}
@@ -86,7 +86,7 @@ export default function Navbar() {
               className="transition-all duration-300 object-contain"
             />
           </div>
-        </a>
+        </Link>
 
         {/* Mobile Flag + Hamburger */}
         <div className="md:hidden flex items-center gap-3">

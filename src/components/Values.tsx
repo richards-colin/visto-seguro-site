@@ -18,14 +18,14 @@ export default function Values() {
   ]
 
   // Animation variants for staggered entrance
-  const variants = {
-    hidden: { opacity: 0, y: 40 },
-    visible: (custom: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: { delay: custom * 0.12, duration: 0.6, ease: ['easeOut'] }
-    }),
-  }
+const variants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: (custom: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: custom * 0.12, duration: 0.6, ease: "easeOut" }
+  }),
+}
 
   return (
     <section id="values" className="bg-[#fbf7f4] text-gray-800 py-16 px-6 border-b border-gray-200">
@@ -43,10 +43,11 @@ export default function Values() {
               key={key}
               className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition duration-300 border border-gray-200 flex flex-col items-center"
               initial="hidden"
+              animate="visible"
               whileInView="visible"
               viewport={{ once: true, amount: 0.3 }}
               custom={i}
-              variants={variants}
+            //   variants={variants}
             >
               <span className="text-3xl mb-2">{icon}</span>
               <h3 className="text-lg font-semibold mb-2">{t(`values.${key}.title`)}</h3>

@@ -130,7 +130,7 @@ export default function Navbar() {
           <li><a href="#contact" onClick={() => setIsMenuOpen(false)}>{t('nav.contact')}</a></li>
           <li>
             <a
-              href="https://wa.me/18016440975"5
+              href="https://wa.me/18016240221"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 text-white px-4 py-2 rounded text-center hover:bg-green-700 transition"

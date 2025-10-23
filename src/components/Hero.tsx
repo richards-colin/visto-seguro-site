@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 
 interface HeroProps {
   imageUrl?: string

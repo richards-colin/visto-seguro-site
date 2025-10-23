@@ -30,6 +30,11 @@
     "contact": "Contact",
     "pricing": "Plans and Pricing"
   },
+  "services": {
+    "title": "Visa Services",
+    "subtitle": "Explore our main visa options for Brazilians.",
+    "closing": "Contact us for more visa options and personalized support."
+  },
   "tourism": {
     "title": "Tourism Visa (B1/B2)",
     "intro": "The American tourist visa, also known as B1/B2, is one of the most requested visas by Brazilians.",

@@ -26,6 +26,11 @@
   "sub": "En Visto Seguro, te ayudamos a pasar de la duda a la preparación. Recibe orientación legal especializada para aumentar (de verdad) tus posibilidades de aprobación — con el respaldo de un abogado con licencia en EE.UU.",
   "cta": "Habla con un Abogado"
 },
+  "services": {
+    "title": "Servicios de Visa",
+    "subtitle": "Explora nuestras principales opciones de visa para brasileños.",
+    "closing": "Contáctanos para más opciones de visa y asistencia personalizada."
+  },
   "nav": {
     "about": "Sobre",
     "services": "Servicios",

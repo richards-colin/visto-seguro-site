@@ -18,10 +18,10 @@ export default function Services() {
     {
       key: 'student',
       icon: '🎓',
-      bg: 'bg-blue-900',
+      bg: 'bg-blue-100',
       border: 'border-blue-900',
-      text: 'text-white',
-      listColor: 'text-gray-100',
+      text: 'text-gray-800',
+      listColor: 'text-gray-700',
     },
   ]
 
@@ -38,7 +38,7 @@ export default function Services() {
 
   return (
     <section id="services" className="bg-[#fbf7f4] text-gray-800 py-16 px-6 border-b border-gray-200">
-      <SectionTitle headingParts={[t('nav.services'), t('nav.about')]} />
+      <SectionTitle headingParts={[t('nav.services'), ""]} />
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
           {t('services.title', 'Visa Services')}

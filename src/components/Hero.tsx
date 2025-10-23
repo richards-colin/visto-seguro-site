@@ -1,34 +1,34 @@
 import { useTranslation } from 'react-i18next'
 import { useEffect, useRef } from 'react'
 
+interface HeroProps {
+  imageUrl?: string
+}
 
-export default function Hero() {
+export default function Hero({ imageUrl = "/arches.jpg" }: HeroProps) {
   const { t } = useTranslation()
   const bgRef = useRef<HTMLDivElement>(null)
 
-
-    useEffect(() => {
-    const handleScroll = () => {
-      if (bgRef.current) {
-        const offset = window.scrollY * 0.4 // Adjust parallax strength here
-        bgRef.current.style.backgroundPosition = `center ${offset}px`
-      }
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
   return (
     <section
-      className="relative py-24 px-6 text-center border-b border-gray-200 overflow-hidden"
+      ref={bgRef}
+      className="relative py-24 px-6 text-center border-b border-gray-200 overflow-visible"
       style={{
-        backgroundImage: "url('/mountain.jpg')",
+        backgroundImage: `url('${imageUrl}')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         transition: 'background-position 0.2s',
       }}
     >
+      <div
+        className="absolute inset-0"
+        style={{
+          background: "rgba(0,0,0,0.60)",
+          zIndex: 1,
+        }}
+        aria-hidden="true"
+      />
       <div className="relative z-10">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight max-w-5xl mx-auto text-white">
           {t('hero.headline')}
@@ -51,7 +51,6 @@ export default function Hero() {
           {t('hero.cta')}
         </a>
       </div>
-      {/* Overlay removed */}
     </section>
   )
 }

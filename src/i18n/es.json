@@ -11,14 +11,14 @@
     "toggle": "Português"
   },
   "origin": {
-    "headingPart1": "Sobre",
-    "headingPart2": "nosotros",
-    "sectionTitle": "Por qué existimos",
-    "title": "Historia del Fundador: Cómo Nació Visto Seguro",
-    "body": "Mi primera clienta de inmigración no era una desconocida.\nElla fue alguien de quien me enamoré.\n\nMi esposa es de Novo Hamburgo, Rio Grande do Sul, Brasil — y antes de convertirse en mi compañera de vida, fue mi primer caso de inmigración.\n\nEstamos aquí para ayudar a las personas cuyos visados fueron denegados a encontrar claridad, confianza y una segunda oportunidad — tal como lo hizo ella.",
-    "whyTitle": "Por qué existimos",
-    "whyBody": "Visto Seguro existe para empoderar a personas a quienes se les ha negado la visa de turista estadounidense con las herramientas, perspectivas y estrategias que necesitan para intentarlo de nuevo — más inteligentes y más fuertes. Creemos que una negativa no significa el fin. Con el plan correcto, puede ser un nuevo comienzo.\n\nEstamos aquí para reemplazar la confusión con claridad — y la decepción con dirección."
-  },
+  "headingPart1": "Sobre",
+  "headingPart2": "nosotros",
+  "sectionTitle": "Por qué existimos",
+  "title": "Nuestra Misión: Por Qué Fue Creado Visto Seguro",
+  "body": "Visto Seguro fue creado con la misión de ayudar a los brasileños a realizar sus sueños en Estados Unidos de manera práctica, transparente y segura. Nuestro equipo está formado por profesionales con experiencia en el mercado de inmigración y visas, siempre atentos a los constantes cambios en los requisitos consulares.\n\nOfrecemos asesoría especializada para diferentes tipos de visas, como turismo, estudios e intercambio, además de una orientación integral durante todo el proceso. Nuestro objetivo es simplificar los pasos burocráticos, aumentar las posibilidades de aprobación y asegurar que cada cliente se sienta acompañado en cada etapa de su trayectoria.\n\nCombinamos conocimiento técnico, profesionalismo y atención personalizada para que cada persona tenga claridad y confianza al tratar un tema tan importante. En Visto Seguro, creemos que cada caso es único, por eso ofrecemos soluciones personalizadas que se adaptan al perfil y los objetivos de cada cliente.\n\nMás que solo asesoría, brindamos tranquilidad para que puedas enfocarte en lo que realmente importa: disfrutar tu experiencia en Estados Unidos sin preocupaciones.",
+  "whyTitle": "Por qué existimos",
+  "whyBody": "Nuestro objetivo es simplificar el proceso de visa, aumentar tus posibilidades de aprobación y asegurarnos de que te sientas acompañado en cada etapa. Creemos que cada caso es único, por eso ofrecemos soluciones personalizadas para el perfil y los objetivos de cada cliente. Más que solo asesoría, brindamos tranquilidad para que puedas disfrutar tu experiencia en Estados Unidos sin preocupaciones."
+},
 "hero": {
   "headline": "¿Te negaron la visa estadounidense o tienes miedo de cometer un error en la entrevista?",
   "support": "No tienes que enfrentar esto solo.",
@@ -26,12 +26,71 @@
   "sub": "En Visto Seguro, te ayudamos a pasar de la duda a la preparación. Recibe orientación legal especializada para aumentar (de verdad) tus posibilidades de aprobación — con el respaldo de un abogado con licencia en EE.UU.",
   "cta": "Habla con un Abogado"
 },
+  "services": {
+    "title": "Servicios de Visa",
+    "subtitle": "Explora nuestras principales opciones de visa para brasileños.",
+    "closing": "Contáctanos para más opciones de visa y asistencia personalizada."
+  },
   "nav": {
     "about": "Sobre",
     "services": "Servicios",
     "why": "Por qué Visto Seguro",
     "contact": "Contacto",
     "pricing": "Planes y Precios"
+  },
+  "tourism": {
+    "title": "Visa de Turismo (B1/B2)",
+    "intro": "La visa americana de turismo, también conocida como B1/B2, es una de las más solicitadas por los brasileños.",
+    "body": "Ya sea para visitar Disney, ir de compras a Miami o asistir a reuniones de negocios, esta visa abre las puertas a Estados Unidos. Pero atención: aunque es muy popular, existen reglas claras sobre lo que se puede y no se puede hacer.",
+    "canTitle": "✅ Lo que puedes hacer con la visa de turismo",
+    "canList": [
+      "Viajar por turismo y ocio",
+      "Visitar familiares y amigos",
+      "Ir de compras",
+      "Asistir a reuniones y conferencias de negocios",
+      "Recibir tratamiento médico temporal"
+    ],
+    "cannotTitle": "❌ Lo que NO puedes hacer",
+    "cannotList": [
+      "Trabajar en EE.UU.",
+      "Estudiar a tiempo completo",
+      "Solicitar residencia permanente",
+      "Recibir beneficios del gobierno estadounidense"
+    ],
+    "docsTitle": "Documentos normalmente solicitados:",
+    "docsList": [
+      "Pasaporte válido",
+      "Formulario DS-160 completado",
+      "Comprobante de cita para la entrevista",
+      "Comprobante de pago de la tasa consular (MRV)",
+      "Documentos que demuestren vínculos con Brasil (empleo, familia, bienes)"
+    ]
+  },
+  "student": {
+    "title": "Visa de Estudiante (F1)",
+    "intro": "El sueño de estudiar en Estados Unidos atrae a miles de brasileños cada año. La visa de estudiante F1 es la más común para quienes desean estudiar en escuelas, colegios y universidades estadounidenses.",
+    "canTitle": "✅ Lo que puedes hacer con la visa F1",
+    "canList": [
+      "Estudiar a tiempo completo en una institución acreditada",
+      "Trabajar en el campus (hasta 20 horas por semana durante el período académico)",
+      "Participar en programas de prácticas autorizados (OPT y CPT)",
+      "Permanecer legalmente en EE.UU. durante el curso"
+    ],
+    "cannotTitle": "❌ Lo que NO puedes hacer",
+    "cannotList": [
+      "Trabajar fuera del campus sin autorización",
+      "Solicitar residencia permanente directamente",
+      "Tomar una pausa en el curso y permanecer en EE.UU.",
+      "Ignorar las reglas de SEVIS (Student and Exchange Visitor Information System)"
+    ],
+    "docsTitle": "Documentos importantes:",
+    "docsList": [
+      "Formulario I-20 (emitido por la institución)",
+      "Comprobante de pago de la tasa SEVIS (I-901)",
+      "DS-160 completado",
+      "Comprobante financiero (demostración de que puedes mantenerte en EE.UU.)",
+      "Pasaporte válido"
+    ]
   },
 "how": {
   "headingPart1": "Qué",
@@ -46,14 +105,14 @@
   "closing": "Todo lo que necesitas para aplicar o reaplicar con confianza."
 },
   "bio": {
-    "headingPart1": "Conoce al",
-    "headingPart2": "abogado",
-    "name": "Kevin G. Richards",
-    "sectionTitle": ["Conoce al", "abogado"],
-    "title": "Fundador y Abogado Principal – Visto Seguro\nAbogado de Inmigración en EE.UU. con más de 36 años de experiencia",
-    "body": "Kevin G. Richards es un abogado de inmigración estadounidense con amplia experiencia, más de 36 años dedicados exclusivamente al derecho migratorio. Su trayectoria comenzó mucho antes de la facultad de derecho, cuando se casó con su esposa — originaria de Novo Hamburgo, Rio Grande do Sul, Brasil — que se convirtió en su primera clienta de inmigración. Esa experiencia personal encendió una dedicación de por vida a ayudar a personas y familias a navegar las complejidades de la inmigración en EE.UU.\n\nEstá autorizado para ejercer ante todos los tribunales federales de inmigración de EE.UU., incluyendo la Junta de Apelaciones de Inmigración (BIA). A lo largo de su carrera, Kevin ha manejado miles de casos, entre ellos:\n• Ajuste de estatus (green cards)\n• Procesos consulares\n• Exenciones de inadmisibilidad (incluyendo §§ 212 y 601)\n• Defensa contra deportaciones, incluyendo cancelación 42B para no residentes permanentes\n• Casos complejos de asilo y humanitarios\n\nHa representado a clientes de todo el mundo — incluyendo Canadá, Alemania, Rusia, Afganistán, Irán, Kenia y virtualmente todos los países de América del Norte y del Sur. Su reputación se basa en la compasión, precisión legal y una profunda comprensión personal de la experiencia del inmigrante.\n\nActualmente divide su tiempo entre Brasil y EE.UU., ofreciendo servicio bilingüe y apoyo jurídico estratégico dirigido a ciudadanos brasileños. Como fundador de Visto Seguro, lidera la única asesoría de visas en Brasil dirigida por un abogado estadounidense especializado.\n\nVisto Seguro no es una “agencia” de visas — es un servicio legal dirigido por un abogado con décadas de experiencia. Aquí no adivinamos. Analizamos, asesoramos y luchamos por tu aprobación basados en estrategia y ley.",
-    "link": "Más información en nuestra oficina principal de inmigración"
-  },
+  "headingPart1": "Conoce al",
+  "headingPart2": "abogado",
+  "name": "Kevin G. Richards",
+  "sectionTitle": ["Conoce al", "abogado"],
+  "title": "Fundador y Abogado Principal – Visto Seguro\nAbogado de Inmigración en EE.UU. con más de 36 años de experiencia",
+  "body": "Kevin G. Richards es un abogado de inmigración estadounidense con más de 36 años de experiencia dedicados exclusivamente al derecho migratorio. Su trayectoria comenzó mucho antes de la facultad de derecho, cuando se casó con su esposa — originaria de Novo Hamburgo, Rio Grande do Sul, Brasil — quien se convirtió en su primera clienta de inmigración. Esa experiencia personal encendió una dedicación de por vida a ayudar a personas y familias a navegar las complejidades de la inmigración en EE.UU.\n\nKevin está autorizado y en buen estado con el Colegio de Abogados (Bar #5339) y puede ejercer ante todos los tribunales federales de inmigración de EE.UU., incluyendo la Junta de Apelaciones de Inmigración (BIA).\n\nA lo largo de su carrera, Kevin ha manejado miles de casos de inmigración, construyendo una reputación por su compasión, precisión legal y profunda comprensión personal de la experiencia del inmigrante. Actualmente divide su tiempo entre Brasil y EE.UU., ofreciendo servicio bilingüe y apoyo estratégico de visas especialmente para ciudadanos brasileños.\n\nComo fundador de Visto Seguro, Kevin lidera la única asesoría de visas en Brasil que está basada en abogados y fundamentada legalmente. Visto Seguro no es una “agencia” de visas — es un servicio legal dirigido por un abogado estadounidense con décadas de experiencia. No adivinamos. Analizamos, asesoramos y luchamos por tu aprobación basados en estrategia y ley.",
+  "link": "Más información en nuestra oficina principal de inmigración"
+},
   "pricing": {
     "headingPart1": "Visto Seguro",
     "headingPart2": "planes y precios",
@@ -115,5 +174,38 @@
     "tagline": "Apoyo legal migratorio para ciudadanos brasileños",
     "location": "Ogden, Utah – EE.UU.",
     "copyright": "© {{year}} Visto Seguro"
-  }
+  },"values": {
+  "headingPart1": "Nuestros",
+  "headingPart2": "Valores",
+  "title": "En Visto Seguro, nuestros valores guían cada paso de nuestro trabajo.",
+  "intro": "No solo ayudamos con formularios — te acompañamos en una de las decisiones más importantes de tu vida: hacer realidad tu sueño de viajar, estudiar o vivir en el extranjero.",
+  "clientCentered": {
+    "title": "Orientación centrada en el cliente",
+    "body": "Escuchamos primero, actuamos con empatía y nos enfocamos en tus objetivos. Tu sueño es nuestra misión. Estamos a tu lado de principio a fin."
+  },
+  "clarityEducation": {
+    "title": "Claridad a través de la educación",
+    "body": "La información es poder. Simplificamos procesos migratorios complejos para que te sientas informado y seguro en cada etapa."
+  },
+  "integrityTransparency": {
+    "title": "Integridad y transparencia",
+    "body": "Trabajamos con honestidad y profesionalismo. Sin condiciones ocultas, sin falsas promesas — solo orientación clara y confiable."
+  },
+  "excellence": {
+    "title": "Excelencia en cada caso",
+    "body": "Ya sea una visa de turista, un viaje de estudios o una reaplicación tras una negativa, buscamos la excelencia en cada ocasión."
+  },
+  "compassionRespect": {
+    "title": "Compasión y respeto",
+    "body": "Cada historia importa. Cada cliente merece dignidad. Tratamos tu caso con el mismo cuidado que si fuera el nuestro."
+  },
+  "fearlessAdvocacy": {
+    "title": "Defensa sin miedo",
+    "body": "No renunciamos a tu sueño. Analizamos, planificamos y luchamos con determinación para maximizar tus posibilidades de aprobación."
+  },
+  "innovation": {
+    "title": "Impulsados por la innovación",
+    "body": "Utilizamos tecnología y estrategias modernas para hacer el proceso más rápido, accesible y adaptado a la realidad brasileña."
+  },"closing": "✦ Somos más que apoyo para visas — somos tu aliado de confianza para hacer posible el sueño americano."
+}
 }

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useTranslation } from 'react-i18next'
 import { useState, useEffect, useRef } from 'react'
 import { Menu, X } from 'lucide-react'
+import Link from 'next/link'
 
 const languages = [
   { code: 'en', label: 'English', flag: '/us-flag.svg' },
@@ -74,7 +75,7 @@ export default function Navbar() {
 
         
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-        <a href="#top" className="flex items-center w-full md:w-auto">
+        <Link href="/" className="flex items-center w-full md:w-auto">
           <div className="relative transition-all duration-300">
             <Image
               src={isScrolled ? '/miniLogo.PNG' : '/logo.PNG'}
@@ -85,7 +86,7 @@ export default function Navbar() {
               className="transition-all duration-300 object-contain"
             />
           </div>
-        </a>
+        </Link>
 
         {/* Mobile Flag + Hamburger */}
         <div className="md:hidden flex items-center gap-3">
@@ -101,11 +102,11 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex gap-6 items-center text-sm font-medium text-gray-700">
-          <li><a href="#services" className="hover:text-blue-600">{t('nav.services')}</a></li>
-          <li><a href="#about" className="hover:text-blue-600">{t('nav.about')}</a></li>
-          <li><a href="#why" className="hover:text-blue-600">{t('nav.why')}</a></li>
-          <li><a href="#pricing" className="hover:text-blue-600">{t('nav.pricing')}</a></li>
-          <li><a href="#contact" className="hover:text-blue-600">{t('nav.contact')}</a></li>
+  <li><Link href="/services" className="hover:text-blue-600">{t('nav.services')}</Link></li>
+  <li><Link href="/about" className="hover:text-blue-600">{t('nav.about')}</Link></li>
+  <li><Link href="/why" className="hover:text-blue-600">{t('nav.why')}</Link></li>
+  <li><Link href="/pricing" className="hover:text-blue-600">{t('nav.pricing')}</Link></li>
+  <li><Link href="/contact" className="hover:text-blue-600">{t('nav.contact')}</Link></li>
           <li className="flex items-center gap-3">
             <a
               href="https://wa.me/18016440975"
@@ -123,11 +124,11 @@ export default function Navbar() {
       {/* Mobile Nav */}
       {isMenuOpen && (
         <ul className="md:hidden flex flex-col gap-4 px-6 py-4 text-gray-800 text-base font-medium bg-[#f8f4f1] border-t border-gray-300">
-          <li><a href="#services" onClick={() => setIsMenuOpen(false)}>{t('nav.services')}</a></li>
-          <li><a href="#about" onClick={() => setIsMenuOpen(false)}>{t('nav.about')}</a></li>
-          <li><a href="#why" onClick={() => setIsMenuOpen(false)}>{t('nav.why')}</a></li>
-          <li><a href="#pricing" onClick={() => setIsMenuOpen(false)}>{t('nav.pricing')}</a></li>
-          <li><a href="#contact" onClick={() => setIsMenuOpen(false)}>{t('nav.contact')}</a></li>
+          <li><Link href="/services" onClick={() => setIsMenuOpen(false)}>{t('nav.services')}</Link></li>
+          <li><Link href="/about" onClick={() => setIsMenuOpen(false)}>{t('nav.about')}</Link></li>
+          <li><Link href="/why" onClick={() => setIsMenuOpen(false)}>{t('nav.why')}</Link></li>
+          <li><Link href="/pricing" onClick={() => setIsMenuOpen(false)}>{t('nav.pricing')}</Link></li>
+          <li><Link href="/contact" onClick={() => setIsMenuOpen(false)}>{t('nav.contact')}</Link></li>
           <li>
             <a
               href="https://wa.me/18016240221"

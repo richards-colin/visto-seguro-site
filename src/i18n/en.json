@@ -8,14 +8,14 @@
   "spanish": "Se Habla Español",
   "toggle": "Português"
 },"origin": {
-      "headingPart1": "About",
+  "headingPart1": "About",
   "headingPart2": "us",
-        "sectionTitle": "Why we exist",
-    "title": "Founder’s Origin Story: How Visto Seguro Was Born",
-    "body": "My first immigration client wasn’t a stranger.\nShe was someone I fell in love with.\n\nMy wife is from Novo Hamburgo, Rio Grande do Sul, Brazil—and before she became my partner in life, she became my very first immigration case. \n\nWe’re here to help people who have been denied a visa find clarity, confidence, and a second chance—just like she did.",
-    "whyTitle": "Why we exist",
-    "whyBody": "Visto Seguro exists to empower people who have been denied a U.S. visitor visa with the tools, insight, and strategy they need to try again—smarter and stronger. We believe that rejection doesn’t mean the end. With the right plan, it can be a new beginning.\n\nWe’re here to replace confusion with clarity—and disappointment with direction."
-  },
+  "sectionTitle": "Why we exist",
+  "title": "Our Mission: Why Visto Seguro Was Created",
+  "body": "Visto Seguro was created with the mission of helping Brazilians realize their dreams in the United States in a practical, transparent, and secure manner. Our team is made up of professionals with experience in the immigration and visa market, always attentive to the constant changes in consular requirements.\n\nWe offer specialized consultation for different types of visas, such as tourism, student, and exchange, as well as comprehensive guidance throughout the process. Our goal is to simplify bureaucratic steps, increase the chances of approval, and ensure that each client feels supported at every stage of their journey.\n\nWe combine technical knowledge, professionalism, and personalized service so that each person has clarity and confidence when dealing with such an important issue. At Visto Seguro, we believe that each case is unique, that's why we offer customized solutions that adapt to each client's profile and goals.\n\nMore than just advice, we provide peace of mind so you can focus on what really matters: enjoying your experience in the United States without worries.",
+  "whyTitle": "Why we exist",
+  "whyBody": "Our goal is to simplify the visa process, increase your chances of approval, and ensure you feel supported at every stage. We believe every case is unique, so we offer customized solutions for each client’s profile and goals. More than just advice, we provide peace of mind so you can enjoy your experience in the United States without worries."
+},
 "hero": {
   "headline": "Was your U.S. visa denied or are you afraid of making a mistake in the interview?",
   "support": "You don't have to face this alone.",
@@ -30,6 +30,65 @@
     "contact": "Contact",
     "pricing": "Plans and Pricing"
   },
+  "services": {
+    "title": "Visa Services",
+    "subtitle": "Explore our main visa options for Brazilians.",
+    "closing": "Contact us for more visa options and personalized support."
+  },
+  "tourism": {
+    "title": "Tourism Visa (B1/B2)",
+    "intro": "The American tourist visa, also known as B1/B2, is one of the most requested visas by Brazilians.",
+    "body": "Whether it's to visit Disney, go shopping in Miami, or attend meetings, business, this visa opens the doors to the United States. But beware: despite being very popular, there are clear rules about what can and cannot be done.",
+    "canTitle": "✅ What you can do with a tourist visa",
+    "canList": [
+      "Travel for tourism and leisure",
+      "Visit family and friends",
+      "Go shopping",
+      "Attend business meetings and conferences",
+      "Receive temporary medical treatment"
+    ],
+    "cannotTitle": "❌ What you CANNOT do",
+    "cannotList": [
+      "Work in the US",
+      "Study full-time",
+      "Apply for permanent residency",
+      "Receive US government benefits"
+    ],
+    "docsTitle": "Documents normally requested:",
+    "docsList": [
+      "Valid passport",
+      "Completed DS-160 form",
+      "Proof of interview appointment",
+      "Proof of payment of consular fee (MRV)",
+      "Documents proving ties to Brazil (employment, family, assets)"
+    ]
+  },
+  "student": {
+    "title": "Student Visa (F1)",
+    "intro": "The dream of studying in the United States attracts thousands of Brazilians every year. The F1 student visa is the most common visa for those who wish to study at American schools, colleges, and universities.",
+    "canTitle": "✅ What you can do with an F1 visa",
+    "canList": [
+      "Study full-time at an accredited institution",
+      "Work on campus (up to 20 hours per week during the academic term)",
+      "Participate in authorized internship programs (OPT and CPT)",
+      "Remain legally in the U.S. during the course"
+    ],
+    "cannotTitle": "❌ What you CANNOT do",
+    "cannotList": [
+      "Work off campus without authorization",
+      "Apply for permanent residence directly",
+      "Take a leave of absence from your course and remain in the US",
+      "Ignore the rules of SEVIS (Student and Exchange Visitor Information System)"
+    ],
+    "docsTitle": "Important documents:",
+    "docsList": [
+      "Form I-20 (issued by the institution)",
+      "Proof of payment of the SEVIS fee (I-901)",
+      "Completed DS-160",
+      "Financial proof (demonstration that you can support yourself in the US)",
+      "Valid passport"
+    ]
+  },
 "how": {
   "headingPart1": "What we",
   "headingPart2": "do for you",
@@ -43,14 +102,14 @@
   "closing": "Everything you need to apply or reapply with confidence."
 },
   "bio": {
-      "headingPart1": "Meet the",
+  "headingPart1": "Meet the",
   "headingPart2": "attorney",
-    "name": "Kevin G. Richards",
+  "name": "Kevin G. Richards",
   "sectionTitle": ["Meet the", "attorney"],
-    "title": "Founder & Lead Attorney – Visto Seguro\nLicensed U.S. Immigration Attorney with 36+ Years of Experience",
-    "body": "Kevin G. Richards is a seasoned U.S. immigration attorney with over 36 years of experience practicing exclusively in immigration law. His journey began long before law school, when he married his wife—originally from Novo Hamburgo, Rio Grande do Sul, Brazil—who became his very first immigration client. That personal experience sparked a lifelong dedication to helping individuals and families navigate the complexities of U.S. immigration.\n\nHe is licensed to practice in all federal immigration courts of the United States, including the Board of Immigration Appeals (BIA). Over the course of his career, Kevin has successfully handled thousands of immigration cases, including:\n Adjustment of status (green cards)\n Consular processing\n Waivers of inadmissibility (including 212 and 601)\n Removal (deportation) defense, including 42B non-LPR cancellation\n Complex asylum and humanitarian cases\n\nKevin has represented clients from all over the world—including Canada, Germany, Russia, Afghanistan, Iran, Kenya, and virtually every country in North and South America. His reputation is built on compassion, legal precision, and a deep personal understanding of the immigrant experience.\n\nToday, he splits his time between Brazil and the United States, offering clients bilingual service and strategic visa support tailored for Brazilian citizens. As the founder of Visto Seguro, Kevin leads Brazil’s only visa advisory firm that is attorney-based and legally grounded.\n\nVisto Seguro is not a visa “agency”—it’s a legal service led by an American immigration attorney with decades of experience. We don’t guess. We analyze, advise, and fight for your approval based on strategy and law.",
-    "link": "Learn more at our main immigration law office"
-  },"pricing": {
+  "title": "Founder & Lead Attorney – Visto Seguro\nLicensed U.S. Immigration Attorney with 36+ Years of Experience",
+  "body": "Kevin G. Richards is a seasoned U.S. immigration attorney with over 36 years of experience practicing exclusively in immigration law. His journey began long before law school, when he married his wife—originally from Novo Hamburgo, Rio Grande do Sul, Brazil—who became his very first immigration client. That personal experience sparked a lifelong dedication to helping individuals and families navigate the complexities of U.S. immigration.\n\nKevin is licensed and in good standing with the State Bar (Bar #5339) and authorized to practice before all federal immigration courts of the United States, including the Board of Immigration Appeals (BIA).\n\nThroughout his career, Kevin has successfully handled thousands of immigration cases, building a reputation for compassion, legal precision, and a deep personal understanding of the immigrant experience. Today, he splits his time between Brazil and the United States, offering clients bilingual service and strategic visa support tailored for Brazilian citizens.\n\nAs the founder of Visto Seguro, Kevin leads Brazil’s only visa advisory firm that is attorney-based and legally grounded. Visto Seguro is not a visa “agency”—it’s a legal service led by an American immigration attorney with decades of experience. We don’t guess. We analyze, advise, and fight for your approval based on strategy and law.",
+  "link": "Learn more at our main immigration law office"
+},"pricing": {
           "headingPart1": "Visto Seguro",
   "headingPart2": "plans and pricing",
         "sectionTitle": ["Visto Seguro", "plans and pricing"],
@@ -111,5 +170,53 @@
   "tagline": "Legal visa support for Brazilian citizens",
   "location": "Ogden, Utah – U.S.A.",
   "copyright": "© {{year}} Visto Seguro"
+},
+"values": {
+  "headingPart1": "Our",
+  "headingPart2": "Values",
+  "title": "At Visto Seguro, our values guide every step of our work.",
+  "intro": "We don’t just help with forms — we walk with you through one of the most important decisions of your life: making your dream of traveling, studying, or living abroad a reality.",
+  "clientCentered": {
+    "title": "Client-Centered Guidance",
+    "body": "We listen first, act with empathy, and focus on your goals. Your dream is our mission. We’re by your side from start to finish."
+  },
+  "clarityEducation": {
+    "title": "Clarity Through Education",
+    "body": "Information is power. We simplify complex immigration processes so you feel informed and confident at every stage."
+  },
+  "integrityTransparency": {
+    "title": "Integrity & Transparency",
+    "body": "We work with honesty and professionalism. No hidden conditions, no false promises — just clear, trustworthy guidance."
+  },
+  "excellence": {
+    "title": "Excellence in Every Case",
+    "body": "Whether it’s a tourist visa, a student journey, or reapplying after a refusal, we pursue excellence every single time."
+  },
+  "compassionRespect": {
+    "title": "Compassion & Respect",
+    "body": "Every story matters. Every client deserves dignity. We treat your case with the same care as if it were our own."
+  },
+  "fearlessAdvocacy": {
+    "title": "Fearless Advocacy",
+    "body": "We don’t give up on your dream. We analyze, strategize, and fight with determination to maximize your chances of approval."
+  },
+  "innovation": {
+    "title": "Driven by Innovation",
+    "body": "We use technology and modern strategies to make the process faster, more accessible, and tailored to the Brazilian reality."
+  }, "closing": " ✦ We’re more than visa support — we’re your trusted ally in making the American dream possible."
+},"contact": {
+  "title": "Get in Touch",
+  "subtitle": "Questions? Need help with your visa? Reach out and our team will respond as soon as possible.",
+  "form": {
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "submit": "Send Message"
+  },
+  "info": {
+    "address": "2562 Monroe Boulevard, Ogden, UT 84401",
+    "phone": "Phone: 801-430-9184",
+    "email": "Email: info@vistoseguro.com"
+  }
 }
 }
